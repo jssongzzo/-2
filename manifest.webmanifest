@@ -1,11 +1,9 @@
 {
   "name": "Word Sprint 500",
   "short_name": "Word Sprint",
-  "description": "AR 4.0–5.0 수준의 영어 단어 500개로 공부하는 20문제 모바일 퀴즈",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#111827",
   "lang": "ko-KR",
