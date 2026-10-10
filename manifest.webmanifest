@@ -1,5 +1,5 @@
 {
-  "name": "Word Sprint 500",
+  "name": "Word Sprint 1000+",
   "short_name": "Word Sprint",
   "start_url": "./",
   "scope": "./",
@@ -20,5 +20,6 @@
       "type": "image/png",
       "purpose": "any maskable"
     }
-  ]
+  ],
+  "description": "AR 4.0–5.0 수준의 영어 단어 1039개 이상으로 공부하는 20문제 모바일 퀴즈"
 }

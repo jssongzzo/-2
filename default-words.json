@@ -1,0 +1,4158 @@
+[
+  {
+    "word": "abandon",
+    "meaning": "버리다, 포기하다"
+  },
+  {
+    "word": "ability",
+    "meaning": "능력"
+  },
+  {
+    "word": "absorb",
+    "meaning": "흡수하다"
+  },
+  {
+    "word": "academic",
+    "meaning": "학업의"
+  },
+  {
+    "word": "accept",
+    "meaning": "받아들이다"
+  },
+  {
+    "word": "access",
+    "meaning": "접근하다"
+  },
+  {
+    "word": "accomplish",
+    "meaning": "성취하다"
+  },
+  {
+    "word": "accurate",
+    "meaning": "정확한"
+  },
+  {
+    "word": "achieve",
+    "meaning": "성취하다"
+  },
+  {
+    "word": "adapt",
+    "meaning": "적응하다"
+  },
+  {
+    "word": "adequate",
+    "meaning": "충분한"
+  },
+  {
+    "word": "admire",
+    "meaning": "존경하다"
+  },
+  {
+    "word": "admit",
+    "meaning": "인정하다"
+  },
+  {
+    "word": "advance",
+    "meaning": "발전하다"
+  },
+  {
+    "word": "affect",
+    "meaning": "영향을 미치다"
+  },
+  {
+    "word": "afford",
+    "meaning": "~할 여유가 있다"
+  },
+  {
+    "word": "aggressive",
+    "meaning": "공격적인"
+  },
+  {
+    "word": "analyze",
+    "meaning": "분석하다"
+  },
+  {
+    "word": "announce",
+    "meaning": "발표하다"
+  },
+  {
+    "word": "anxious",
+    "meaning": "불안한"
+  },
+  {
+    "word": "apparent",
+    "meaning": "명백한"
+  },
+  {
+    "word": "appeal",
+    "meaning": "호소하다"
+  },
+  {
+    "word": "approach",
+    "meaning": "접근하다"
+  },
+  {
+    "word": "appropriate",
+    "meaning": "적절한"
+  },
+  {
+    "word": "argue",
+    "meaning": "주장하다"
+  },
+  {
+    "word": "arise",
+    "meaning": "발생하다"
+  },
+  {
+    "word": "arrange",
+    "meaning": "정리하다, 준비하다"
+  },
+  {
+    "word": "attempt",
+    "meaning": "시도하다"
+  },
+  {
+    "word": "attitude",
+    "meaning": "태도"
+  },
+  {
+    "word": "aware",
+    "meaning": "알고 있는"
+  },
+  {
+    "word": "balance",
+    "meaning": "균형"
+  },
+  {
+    "word": "benefit",
+    "meaning": "이익, 혜택"
+  },
+  {
+    "word": "brief",
+    "meaning": "간단한"
+  },
+  {
+    "word": "capable",
+    "meaning": "능력 있는"
+  },
+  {
+    "word": "capture",
+    "meaning": "붙잡다"
+  },
+  {
+    "word": "career",
+    "meaning": "직업, 경력"
+  },
+  {
+    "word": "challenge",
+    "meaning": "도전"
+  },
+  {
+    "word": "circumstance",
+    "meaning": "상황"
+  },
+  {
+    "word": "claim",
+    "meaning": "주장하다"
+  },
+  {
+    "word": "clarify",
+    "meaning": "명확하게 하다"
+  },
+  {
+    "word": "collapse",
+    "meaning": "붕괴하다"
+  },
+  {
+    "word": "combine",
+    "meaning": "결합하다"
+  },
+  {
+    "word": "comment",
+    "meaning": "논평"
+  },
+  {
+    "word": "commit",
+    "meaning": "저지르다, 약속하다"
+  },
+  {
+    "word": "communicate",
+    "meaning": "소통하다"
+  },
+  {
+    "word": "compare",
+    "meaning": "비교하다"
+  },
+  {
+    "word": "complex",
+    "meaning": "복잡한"
+  },
+  {
+    "word": "concentrate",
+    "meaning": "집중하다"
+  },
+  {
+    "word": "concern",
+    "meaning": "걱정, 우려"
+  },
+  {
+    "word": "conclude",
+    "meaning": "결론짓다"
+  },
+  {
+    "word": "conduct",
+    "meaning": "수행하다"
+  },
+  {
+    "word": "confident",
+    "meaning": "자신감 있는"
+  },
+  {
+    "word": "confirm",
+    "meaning": "확인하다"
+  },
+  {
+    "word": "consequence",
+    "meaning": "결과"
+  },
+  {
+    "word": "consider",
+    "meaning": "고려하다"
+  },
+  {
+    "word": "consist",
+    "meaning": "구성되다"
+  },
+  {
+    "word": "constant",
+    "meaning": "끊임없는"
+  },
+  {
+    "word": "consume",
+    "meaning": "소비하다"
+  },
+  {
+    "word": "contain",
+    "meaning": "포함하다"
+  },
+  {
+    "word": "contribute",
+    "meaning": "기여하다"
+  },
+  {
+    "word": "convenient",
+    "meaning": "편리한"
+  },
+  {
+    "word": "convince",
+    "meaning": "설득하다"
+  },
+  {
+    "word": "cooperate",
+    "meaning": "협력하다"
+  },
+  {
+    "word": "create",
+    "meaning": "창조하다"
+  },
+  {
+    "word": "decline",
+    "meaning": "감소하다"
+  },
+  {
+    "word": "define",
+    "meaning": "정의하다"
+  },
+  {
+    "word": "demonstrate",
+    "meaning": "보여주다"
+  },
+  {
+    "word": "deny",
+    "meaning": "부인하다"
+  },
+  {
+    "word": "depend",
+    "meaning": "의존하다"
+  },
+  {
+    "word": "derive",
+    "meaning": "얻다"
+  },
+  {
+    "word": "deserve",
+    "meaning": "~할 가치가 있다"
+  },
+  {
+    "word": "despite",
+    "meaning": "~에도 불구하고"
+  },
+  {
+    "word": "determine",
+    "meaning": "결정하다"
+  },
+  {
+    "word": "develop",
+    "meaning": "발달시키다"
+  },
+  {
+    "word": "device",
+    "meaning": "장치"
+  },
+  {
+    "word": "differ",
+    "meaning": "다르다"
+  },
+  {
+    "word": "difficult",
+    "meaning": "어려운"
+  },
+  {
+    "word": "discuss",
+    "meaning": "논의하다"
+  },
+  {
+    "word": "distinguish",
+    "meaning": "구별하다"
+  },
+  {
+    "word": "distribute",
+    "meaning": "분배하다"
+  },
+  {
+    "word": "domestic",
+    "meaning": "국내의"
+  },
+  {
+    "word": "efficient",
+    "meaning": "효율적인"
+  },
+  {
+    "word": "emphasize",
+    "meaning": "강조하다"
+  },
+  {
+    "word": "enable",
+    "meaning": "가능하게 하다"
+  },
+  {
+    "word": "encounter",
+    "meaning": "마주치다"
+  },
+  {
+    "word": "encourage",
+    "meaning": "격려하다"
+  },
+  {
+    "word": "essential",
+    "meaning": "필수적인"
+  },
+  {
+    "word": "establish",
+    "meaning": "설립하다"
+  },
+  {
+    "word": "estimate",
+    "meaning": "추정하다"
+  },
+  {
+    "word": "evaluate",
+    "meaning": "평가하다"
+  },
+  {
+    "word": "evidence",
+    "meaning": "증거"
+  },
+  {
+    "word": "examine",
+    "meaning": "검사하다"
+  },
+  {
+    "word": "expand",
+    "meaning": "확장하다"
+  },
+  {
+    "word": "expect",
+    "meaning": "기대하다"
+  },
+  {
+    "word": "expose",
+    "meaning": "노출시키다"
+  },
+  {
+    "word": "feature",
+    "meaning": "특징"
+  },
+  {
+    "word": "flexible",
+    "meaning": "유연한"
+  },
+  {
+    "word": "focus",
+    "meaning": "집중하다"
+  },
+  {
+    "word": "frequent",
+    "meaning": "빈번한"
+  },
+  {
+    "word": "function",
+    "meaning": "기능"
+  },
+  {
+    "word": "generate",
+    "meaning": "생성하다"
+  },
+  {
+    "word": "identify",
+    "meaning": "식별하다"
+  },
+  {
+    "word": "ignore",
+    "meaning": "무시하다"
+  },
+  {
+    "word": "illustrate",
+    "meaning": "설명하다"
+  },
+  {
+    "word": "imply",
+    "meaning": "암시하다"
+  },
+  {
+    "word": "improve",
+    "meaning": "향상시키다"
+  },
+  {
+    "word": "indicate",
+    "meaning": "나타내다"
+  },
+  {
+    "word": "individual",
+    "meaning": "개인"
+  },
+  {
+    "word": "influence",
+    "meaning": "영향"
+  },
+  {
+    "word": "inform",
+    "meaning": "알리다"
+  },
+  {
+    "word": "initial",
+    "meaning": "초기의"
+  },
+  {
+    "word": "insist",
+    "meaning": "주장하다"
+  },
+  {
+    "word": "intend",
+    "meaning": "의도하다"
+  },
+  {
+    "word": "involve",
+    "meaning": "포함하다"
+  },
+  {
+    "word": "issue",
+    "meaning": "문제"
+  },
+  {
+    "word": "maintain",
+    "meaning": "유지하다"
+  },
+  {
+    "word": "major",
+    "meaning": "주요한"
+  },
+  {
+    "word": "manage",
+    "meaning": "관리하다"
+  },
+  {
+    "word": "occur",
+    "meaning": "발생하다"
+  },
+  {
+    "word": "obtain",
+    "meaning": "얻다"
+  },
+  {
+    "word": "obvious",
+    "meaning": "명백한"
+  },
+  {
+    "word": "participate",
+    "meaning": "참여하다"
+  },
+  {
+    "word": "perceive",
+    "meaning": "인식하다"
+  },
+  {
+    "word": "perform",
+    "meaning": "수행하다"
+  },
+  {
+    "word": "permit",
+    "meaning": "허락하다"
+  },
+  {
+    "word": "persuade",
+    "meaning": "설득하다"
+  },
+  {
+    "word": "potential",
+    "meaning": "잠재적인"
+  },
+  {
+    "word": "precise",
+    "meaning": "정확한"
+  },
+  {
+    "word": "predict",
+    "meaning": "예측하다"
+  },
+  {
+    "word": "prevent",
+    "meaning": "막다"
+  },
+  {
+    "word": "primary",
+    "meaning": "주요한"
+  },
+  {
+    "word": "proceed",
+    "meaning": "진행하다"
+  },
+  {
+    "word": "promote",
+    "meaning": "촉진하다"
+  },
+  {
+    "word": "propose",
+    "meaning": "제안하다"
+  },
+  {
+    "word": "purchase",
+    "meaning": "구매하다"
+  },
+  {
+    "word": "recognize",
+    "meaning": "인식하다"
+  },
+  {
+    "word": "reduce",
+    "meaning": "줄이다"
+  },
+  {
+    "word": "reflect",
+    "meaning": "반영하다"
+  },
+  {
+    "word": "refuse",
+    "meaning": "거절하다"
+  },
+  {
+    "word": "regard",
+    "meaning": "여기다"
+  },
+  {
+    "word": "relevant",
+    "meaning": "관련된"
+  },
+  {
+    "word": "require",
+    "meaning": "요구하다"
+  },
+  {
+    "word": "respond",
+    "meaning": "응답하다"
+  },
+  {
+    "word": "reveal",
+    "meaning": "드러내다"
+  },
+  {
+    "word": "significant",
+    "meaning": "중요한"
+  },
+  {
+    "word": "similar",
+    "meaning": "비슷한"
+  },
+  {
+    "word": "solve",
+    "meaning": "해결하다"
+  },
+  {
+    "word": "specific",
+    "meaning": "구체적인"
+  },
+  {
+    "word": "strategy",
+    "meaning": "전략"
+  },
+  {
+    "word": "sufficient",
+    "meaning": "충분한"
+  },
+  {
+    "word": "suggest",
+    "meaning": "제안하다"
+  },
+  {
+    "word": "survive",
+    "meaning": "살아남다"
+  },
+  {
+    "word": "temporary",
+    "meaning": "일시적인"
+  },
+  {
+    "word": "tend",
+    "meaning": "~하는 경향이 있다"
+  },
+  {
+    "word": "theory",
+    "meaning": "이론"
+  },
+  {
+    "word": "transfer",
+    "meaning": "옮기다"
+  },
+  {
+    "word": "transform",
+    "meaning": "변형하다"
+  },
+  {
+    "word": "unique",
+    "meaning": "독특한"
+  },
+  {
+    "word": "vary",
+    "meaning": "달라지다"
+  },
+  {
+    "word": "vast",
+    "meaning": "광대한"
+  },
+  {
+    "word": "visible",
+    "meaning": "보이는"
+  },
+  {
+    "word": "voluntary",
+    "meaning": "자발적인"
+  },
+  {
+    "word": "adaptation",
+    "meaning": "적응"
+  },
+  {
+    "word": "alternative",
+    "meaning": "대안"
+  },
+  {
+    "word": "annual",
+    "meaning": "연간의"
+  },
+  {
+    "word": "anticipate",
+    "meaning": "예상하다"
+  },
+  {
+    "word": "assign",
+    "meaning": "할당하다"
+  },
+  {
+    "word": "assume",
+    "meaning": "가정하다"
+  },
+  {
+    "word": "attribute",
+    "meaning": "특성"
+  },
+  {
+    "word": "authority",
+    "meaning": "권위"
+  },
+  {
+    "word": "boundary",
+    "meaning": "경계"
+  },
+  {
+    "word": "category",
+    "meaning": "범주"
+  },
+  {
+    "word": "cease",
+    "meaning": "중단하다"
+  },
+  {
+    "word": "chapter",
+    "meaning": "장"
+  },
+  {
+    "word": "civil",
+    "meaning": "시민의"
+  },
+  {
+    "word": "coherent",
+    "meaning": "일관성 있는"
+  },
+  {
+    "word": "coincide",
+    "meaning": "일치하다"
+  },
+  {
+    "word": "commodity",
+    "meaning": "상품"
+  },
+  {
+    "word": "compatible",
+    "meaning": "호환되는"
+  },
+  {
+    "word": "compensate",
+    "meaning": "보상하다"
+  },
+  {
+    "word": "component",
+    "meaning": "구성 요소"
+  },
+  {
+    "word": "comprehensive",
+    "meaning": "포괄적인"
+  },
+  {
+    "word": "contemporary",
+    "meaning": "현대의"
+  },
+  {
+    "word": "contradict",
+    "meaning": "모순되다"
+  },
+  {
+    "word": "crucial",
+    "meaning": "결정적인"
+  },
+  {
+    "word": "deduce",
+    "meaning": "추론하다"
+  },
+  {
+    "word": "dimension",
+    "meaning": "차원"
+  },
+  {
+    "word": "distinct",
+    "meaning": "뚜렷이 다른"
+  },
+  {
+    "word": "dominate",
+    "meaning": "지배하다"
+  },
+  {
+    "word": "eliminate",
+    "meaning": "제거하다"
+  },
+  {
+    "word": "emerge",
+    "meaning": "나타나다"
+  },
+  {
+    "word": "equivalent",
+    "meaning": "동등한"
+  },
+  {
+    "word": "ethical",
+    "meaning": "윤리적인"
+  },
+  {
+    "word": "exclude",
+    "meaning": "제외하다"
+  },
+  {
+    "word": "explicit",
+    "meaning": "명백한"
+  },
+  {
+    "word": "facilitate",
+    "meaning": "촉진하다"
+  },
+  {
+    "word": "fundamental",
+    "meaning": "근본적인"
+  },
+  {
+    "word": "guarantee",
+    "meaning": "보장하다"
+  },
+  {
+    "word": "highlight",
+    "meaning": "강조하다"
+  },
+  {
+    "word": "hypothesis",
+    "meaning": "가설"
+  },
+  {
+    "word": "implement",
+    "meaning": "실행하다"
+  },
+  {
+    "word": "incentive",
+    "meaning": "동기, 장려책"
+  },
+  {
+    "word": "incorporate",
+    "meaning": "포함하다"
+  },
+  {
+    "word": "inevitable",
+    "meaning": "불가피한"
+  },
+  {
+    "word": "interpret",
+    "meaning": "해석하다"
+  },
+  {
+    "word": "justify",
+    "meaning": "정당화하다"
+  },
+  {
+    "word": "likewise",
+    "meaning": "마찬가지로"
+  },
+  {
+    "word": "mechanism",
+    "meaning": "작동 원리"
+  },
+  {
+    "word": "modify",
+    "meaning": "수정하다"
+  },
+  {
+    "word": "nevertheless",
+    "meaning": "그럼에도 불구하고"
+  },
+  {
+    "word": "notion",
+    "meaning": "개념"
+  },
+  {
+    "word": "objective",
+    "meaning": "목표, 객관적인"
+  },
+  {
+    "word": "obstacle",
+    "meaning": "장애물"
+  },
+  {
+    "word": "overall",
+    "meaning": "전반적인"
+  },
+  {
+    "word": "perspective",
+    "meaning": "관점"
+  },
+  {
+    "word": "phenomenon",
+    "meaning": "현상"
+  },
+  {
+    "word": "principle",
+    "meaning": "원칙"
+  },
+  {
+    "word": "proportion",
+    "meaning": "비율"
+  },
+  {
+    "word": "pursue",
+    "meaning": "추구하다"
+  },
+  {
+    "word": "regulate",
+    "meaning": "규제하다"
+  },
+  {
+    "word": "reinforce",
+    "meaning": "강화하다"
+  },
+  {
+    "word": "reject",
+    "meaning": "거부하다"
+  },
+  {
+    "word": "restore",
+    "meaning": "복구하다"
+  },
+  {
+    "word": "retain",
+    "meaning": "유지하다"
+  },
+  {
+    "word": "shift",
+    "meaning": "변화, 이동하다"
+  },
+  {
+    "word": "stable",
+    "meaning": "안정적인"
+  },
+  {
+    "word": "substitute",
+    "meaning": "대체하다"
+  },
+  {
+    "word": "sustain",
+    "meaning": "지속하다"
+  },
+  {
+    "word": "target",
+    "meaning": "목표"
+  },
+  {
+    "word": "trace",
+    "meaning": "추적하다"
+  },
+  {
+    "word": "transmit",
+    "meaning": "전달하다"
+  },
+  {
+    "word": "undergo",
+    "meaning": "겪다"
+  },
+  {
+    "word": "undertake",
+    "meaning": "착수하다"
+  },
+  {
+    "word": "utilize",
+    "meaning": "활용하다"
+  },
+  {
+    "word": "valid",
+    "meaning": "타당한"
+  },
+  {
+    "word": "whereas",
+    "meaning": "~인 반면"
+  },
+  {
+    "word": "accurately",
+    "meaning": "정확하게"
+  },
+  {
+    "word": "approximately",
+    "meaning": "대략"
+  },
+  {
+    "word": "considerably",
+    "meaning": "상당히"
+  },
+  {
+    "word": "eventually",
+    "meaning": "결국"
+  },
+  {
+    "word": "frequently",
+    "meaning": "자주"
+  },
+  {
+    "word": "gradually",
+    "meaning": "점차"
+  },
+  {
+    "word": "primarily",
+    "meaning": "주로"
+  },
+  {
+    "word": "relatively",
+    "meaning": "상대적으로"
+  },
+  {
+    "word": "roughly",
+    "meaning": "대략"
+  },
+  {
+    "word": "abundant",
+    "meaning": "풍부한"
+  },
+  {
+    "word": "abstract",
+    "meaning": "추상적인"
+  },
+  {
+    "word": "accessible",
+    "meaning": "접근 가능한"
+  },
+  {
+    "word": "acquire",
+    "meaning": "습득하다"
+  },
+  {
+    "word": "adjacent",
+    "meaning": "인접한"
+  },
+  {
+    "word": "advocate",
+    "meaning": "옹호하다"
+  },
+  {
+    "word": "allocate",
+    "meaning": "할당하다"
+  },
+  {
+    "word": "ambiguous",
+    "meaning": "모호한"
+  },
+  {
+    "word": "artificial",
+    "meaning": "인공적인"
+  },
+  {
+    "word": "beneficial",
+    "meaning": "유익한"
+  },
+  {
+    "word": "bias",
+    "meaning": "편견"
+  },
+  {
+    "word": "compel",
+    "meaning": "강요하다"
+  },
+  {
+    "word": "conflict",
+    "meaning": "갈등"
+  },
+  {
+    "word": "conform",
+    "meaning": "따르다"
+  },
+  {
+    "word": "considerable",
+    "meaning": "상당한"
+  },
+  {
+    "word": "controversial",
+    "meaning": "논란이 되는"
+  },
+  {
+    "word": "coordinate",
+    "meaning": "조정하다"
+  },
+  {
+    "word": "criteria",
+    "meaning": "기준"
+  },
+  {
+    "word": "dedication",
+    "meaning": "헌신"
+  },
+  {
+    "word": "deficiency",
+    "meaning": "부족"
+  },
+  {
+    "word": "distort",
+    "meaning": "왜곡하다"
+  },
+  {
+    "word": "diverse",
+    "meaning": "다양한"
+  },
+  {
+    "word": "domain",
+    "meaning": "영역"
+  },
+  {
+    "word": "duration",
+    "meaning": "기간"
+  },
+  {
+    "word": "elaborate",
+    "meaning": "정교한"
+  },
+  {
+    "word": "empirical",
+    "meaning": "경험에 근거한"
+  },
+  {
+    "word": "enhance",
+    "meaning": "향상시키다"
+  },
+  {
+    "word": "ensure",
+    "meaning": "보장하다"
+  },
+  {
+    "word": "exceed",
+    "meaning": "초과하다"
+  },
+  {
+    "word": "exhibit",
+    "meaning": "전시하다, 보이다"
+  },
+  {
+    "word": "exploit",
+    "meaning": "활용하다"
+  },
+  {
+    "word": "framework",
+    "meaning": "체계"
+  },
+  {
+    "word": "inhibit",
+    "meaning": "억제하다"
+  },
+  {
+    "word": "innovative",
+    "meaning": "혁신적인"
+  },
+  {
+    "word": "integrate",
+    "meaning": "통합하다"
+  },
+  {
+    "word": "intense",
+    "meaning": "강렬한"
+  },
+  {
+    "word": "interact",
+    "meaning": "상호작용하다"
+  },
+  {
+    "word": "internal",
+    "meaning": "내부의"
+  },
+  {
+    "word": "migrate",
+    "meaning": "이주하다"
+  },
+  {
+    "word": "minimize",
+    "meaning": "최소화하다"
+  },
+  {
+    "word": "mutual",
+    "meaning": "상호적인"
+  },
+  {
+    "word": "neutral",
+    "meaning": "중립적인"
+  },
+  {
+    "word": "overcome",
+    "meaning": "극복하다"
+  },
+  {
+    "word": "persistent",
+    "meaning": "지속적인"
+  },
+  {
+    "word": "preliminary",
+    "meaning": "예비의"
+  },
+  {
+    "word": "priority",
+    "meaning": "우선순위"
+  },
+  {
+    "word": "profound",
+    "meaning": "깊은, 심오한"
+  },
+  {
+    "word": "prominent",
+    "meaning": "두드러진"
+  },
+  {
+    "word": "random",
+    "meaning": "무작위의"
+  },
+  {
+    "word": "recover",
+    "meaning": "회복하다"
+  },
+  {
+    "word": "refine",
+    "meaning": "개선하다"
+  },
+  {
+    "word": "reluctant",
+    "meaning": "꺼리는"
+  },
+  {
+    "word": "resolve",
+    "meaning": "해결하다"
+  },
+  {
+    "word": "rigid",
+    "meaning": "엄격한"
+  },
+  {
+    "word": "scarce",
+    "meaning": "부족한"
+  },
+  {
+    "word": "sole",
+    "meaning": "유일한"
+  },
+  {
+    "word": "substantial",
+    "meaning": "상당한"
+  },
+  {
+    "word": "subtle",
+    "meaning": "미묘한"
+  },
+  {
+    "word": "successive",
+    "meaning": "연속적인"
+  },
+  {
+    "word": "terminate",
+    "meaning": "종료하다"
+  },
+  {
+    "word": "underlying",
+    "meaning": "근본적인"
+  },
+  {
+    "word": "unify",
+    "meaning": "통합하다"
+  },
+  {
+    "word": "validity",
+    "meaning": "타당성"
+  },
+  {
+    "word": "widespread",
+    "meaning": "널리 퍼진"
+  },
+  {
+    "word": "withdraw",
+    "meaning": "철회하다"
+  },
+  {
+    "word": "yield",
+    "meaning": "산출하다"
+  },
+  {
+    "word": "absurd",
+    "meaning": "터무니없는"
+  },
+  {
+    "word": "alert",
+    "meaning": "경계하는"
+  },
+  {
+    "word": "alter",
+    "meaning": "바꾸다"
+  },
+  {
+    "word": "assess",
+    "meaning": "평가하다"
+  },
+  {
+    "word": "conventional",
+    "meaning": "전통적인"
+  },
+  {
+    "word": "convert",
+    "meaning": "전환하다"
+  },
+  {
+    "word": "decay",
+    "meaning": "부패하다, 쇠퇴하다"
+  },
+  {
+    "word": "definite",
+    "meaning": "명확한"
+  },
+  {
+    "word": "desirable",
+    "meaning": "바람직한"
+  },
+  {
+    "word": "devote",
+    "meaning": "바치다"
+  },
+  {
+    "word": "diminish",
+    "meaning": "감소시키다"
+  },
+  {
+    "word": "discrete",
+    "meaning": "별개의"
+  },
+  {
+    "word": "dynamic",
+    "meaning": "역동적인"
+  },
+  {
+    "word": "exaggerate",
+    "meaning": "과장하다"
+  },
+  {
+    "word": "exhaust",
+    "meaning": "고갈시키다"
+  },
+  {
+    "word": "foster",
+    "meaning": "촉진하다"
+  },
+  {
+    "word": "fragile",
+    "meaning": "깨지기 쉬운"
+  },
+  {
+    "word": "hierarchy",
+    "meaning": "계층"
+  },
+  {
+    "word": "identical",
+    "meaning": "동일한"
+  },
+  {
+    "word": "impose",
+    "meaning": "부과하다"
+  },
+  {
+    "word": "incredible",
+    "meaning": "믿기 어려운"
+  },
+  {
+    "word": "inefficient",
+    "meaning": "비효율적인"
+  },
+  {
+    "word": "infer",
+    "meaning": "추론하다"
+  },
+  {
+    "word": "insight",
+    "meaning": "통찰"
+  },
+  {
+    "word": "integral",
+    "meaning": "필수적인"
+  },
+  {
+    "word": "legitimate",
+    "meaning": "정당한"
+  },
+  {
+    "word": "moderate",
+    "meaning": "적당한"
+  },
+  {
+    "word": "neglect",
+    "meaning": "소홀히 하다"
+  },
+  {
+    "word": "occupy",
+    "meaning": "차지하다"
+  },
+  {
+    "word": "plausible",
+    "meaning": "그럴듯한"
+  },
+  {
+    "word": "precede",
+    "meaning": "앞서다"
+  },
+  {
+    "word": "preserve",
+    "meaning": "보존하다"
+  },
+  {
+    "word": "prohibit",
+    "meaning": "금지하다"
+  },
+  {
+    "word": "rational",
+    "meaning": "합리적인"
+  },
+  {
+    "word": "restrain",
+    "meaning": "억제하다"
+  },
+  {
+    "word": "reverse",
+    "meaning": "뒤집다"
+  },
+  {
+    "word": "scarcity",
+    "meaning": "부족"
+  },
+  {
+    "word": "simultaneous",
+    "meaning": "동시의"
+  },
+  {
+    "word": "solely",
+    "meaning": "오로지"
+  },
+  {
+    "word": "sphere",
+    "meaning": "영역, 구체"
+  },
+  {
+    "word": "spontaneous",
+    "meaning": "자발적인"
+  },
+  {
+    "word": "submit",
+    "meaning": "제출하다"
+  },
+  {
+    "word": "supplement",
+    "meaning": "보충하다"
+  },
+  {
+    "word": "trigger",
+    "meaning": "촉발하다"
+  },
+  {
+    "word": "unprecedented",
+    "meaning": "전례 없는"
+  },
+  {
+    "word": "virtually",
+    "meaning": "사실상"
+  },
+  {
+    "word": "welfare",
+    "meaning": "복지"
+  },
+  {
+    "word": "whereby",
+    "meaning": "그것에 의해"
+  },
+  {
+    "word": "withstand",
+    "meaning": "견디다"
+  },
+  {
+    "word": "accommodate",
+    "meaning": "수용하다"
+  },
+  {
+    "word": "advantage",
+    "meaning": "장점"
+  },
+  {
+    "word": "anxiety",
+    "meaning": "불안"
+  },
+  {
+    "word": "assure",
+    "meaning": "확신시키다"
+  },
+  {
+    "word": "competent",
+    "meaning": "유능한"
+  },
+  {
+    "word": "controversy",
+    "meaning": "논란"
+  },
+  {
+    "word": "convey",
+    "meaning": "전달하다"
+  },
+  {
+    "word": "deficit",
+    "meaning": "적자, 부족"
+  },
+  {
+    "word": "deliberate",
+    "meaning": "신중한, 의도적인"
+  },
+  {
+    "word": "deter",
+    "meaning": "막다"
+  },
+  {
+    "word": "devise",
+    "meaning": "고안하다"
+  },
+  {
+    "word": "dilemma",
+    "meaning": "딜레마"
+  },
+  {
+    "word": "discriminate",
+    "meaning": "구별하다"
+  },
+  {
+    "word": "dispose",
+    "meaning": "처리하다"
+  },
+  {
+    "word": "diversity",
+    "meaning": "다양성"
+  },
+  {
+    "word": "dominant",
+    "meaning": "지배적인"
+  },
+  {
+    "word": "endure",
+    "meaning": "견디다"
+  },
+  {
+    "word": "entity",
+    "meaning": "실체"
+  },
+  {
+    "word": "exclusive",
+    "meaning": "독점적인, 배타적인"
+  },
+  {
+    "word": "fluctuate",
+    "meaning": "변동하다"
+  },
+  {
+    "word": "implicit",
+    "meaning": "암묵적인"
+  },
+  {
+    "word": "induce",
+    "meaning": "유발하다"
+  },
+  {
+    "word": "inherent",
+    "meaning": "고유한"
+  },
+  {
+    "word": "inquire",
+    "meaning": "문의하다"
+  },
+  {
+    "word": "integrity",
+    "meaning": "진실성"
+  },
+  {
+    "word": "manipulate",
+    "meaning": "조작하다"
+  },
+  {
+    "word": "mature",
+    "meaning": "성숙한"
+  },
+  {
+    "word": "mediate",
+    "meaning": "중재하다"
+  },
+  {
+    "word": "minimal",
+    "meaning": "최소의"
+  },
+  {
+    "word": "notable",
+    "meaning": "주목할 만한"
+  },
+  {
+    "word": "oblige",
+    "meaning": "의무를 지우다"
+  },
+  {
+    "word": "persist",
+    "meaning": "지속하다"
+  },
+  {
+    "word": "prevalent",
+    "meaning": "널리 퍼진"
+  },
+  {
+    "word": "rationalize",
+    "meaning": "합리화하다"
+  },
+  {
+    "word": "reconcile",
+    "meaning": "조정하다"
+  },
+  {
+    "word": "reproduce",
+    "meaning": "재현하다"
+  },
+  {
+    "word": "respective",
+    "meaning": "각각의"
+  },
+  {
+    "word": "retrieve",
+    "meaning": "되찾다"
+  },
+  {
+    "word": "robust",
+    "meaning": "튼튼한"
+  },
+  {
+    "word": "sequence",
+    "meaning": "순서"
+  },
+  {
+    "word": "signify",
+    "meaning": "의미하다"
+  },
+  {
+    "word": "specify",
+    "meaning": "명시하다"
+  },
+  {
+    "word": "supplementary",
+    "meaning": "보충적인"
+  },
+  {
+    "word": "surpass",
+    "meaning": "능가하다"
+  },
+  {
+    "word": "transparent",
+    "meaning": "투명한"
+  },
+  {
+    "word": "undermine",
+    "meaning": "약화시키다"
+  },
+  {
+    "word": "universal",
+    "meaning": "보편적인"
+  },
+  {
+    "word": "verify",
+    "meaning": "확인하다"
+  },
+  {
+    "word": "vulnerable",
+    "meaning": "취약한"
+  },
+  {
+    "word": "versatile",
+    "meaning": "다재다능한"
+  },
+  {
+    "word": "violate",
+    "meaning": "위반하다"
+  },
+  {
+    "word": "vital",
+    "meaning": "매우 중요한"
+  },
+  {
+    "word": "withdrawal",
+    "meaning": "철회"
+  },
+  {
+    "word": "abrupt",
+    "meaning": "갑작스러운"
+  },
+  {
+    "word": "accumulate",
+    "meaning": "축적하다"
+  },
+  {
+    "word": "anonymous",
+    "meaning": "익명의"
+  },
+  {
+    "word": "constrain",
+    "meaning": "제약하다"
+  },
+  {
+    "word": "correspond",
+    "meaning": "일치하다"
+  },
+  {
+    "word": "deviate",
+    "meaning": "벗어나다"
+  },
+  {
+    "word": "equate",
+    "meaning": "동일시하다"
+  },
+  {
+    "word": "exert",
+    "meaning": "행사하다"
+  },
+  {
+    "word": "feasible",
+    "meaning": "실행 가능한"
+  },
+  {
+    "word": "incidence",
+    "meaning": "발생률"
+  },
+  {
+    "word": "infrastructure",
+    "meaning": "기반 시설"
+  },
+  {
+    "word": "insufficient",
+    "meaning": "불충분한"
+  },
+  {
+    "word": "intact",
+    "meaning": "손상되지 않은"
+  },
+  {
+    "word": "intervene",
+    "meaning": "개입하다"
+  },
+  {
+    "word": "intrinsic",
+    "meaning": "본질적인"
+  },
+  {
+    "word": "offset",
+    "meaning": "상쇄하다"
+  },
+  {
+    "word": "orient",
+    "meaning": "방향을 잡다"
+  },
+  {
+    "word": "paradox",
+    "meaning": "역설"
+  },
+  {
+    "word": "precedent",
+    "meaning": "선례"
+  },
+  {
+    "word": "presume",
+    "meaning": "추정하다"
+  },
+  {
+    "word": "refute",
+    "meaning": "반박하다"
+  },
+  {
+    "word": "reside",
+    "meaning": "거주하다"
+  },
+  {
+    "word": "rigorous",
+    "meaning": "엄격한"
+  },
+  {
+    "word": "sophisticated",
+    "meaning": "정교한"
+  },
+  {
+    "word": "subsequent",
+    "meaning": "그 다음의"
+  },
+  {
+    "word": "underestimate",
+    "meaning": "과소평가하다"
+  },
+  {
+    "word": "acknowledge",
+    "meaning": "인정하다"
+  },
+  {
+    "word": "appreciate",
+    "meaning": "감사하다, 이해하다"
+  },
+  {
+    "word": "assemble",
+    "meaning": "모으다"
+  },
+  {
+    "word": "attain",
+    "meaning": "달성하다"
+  },
+  {
+    "word": "compile",
+    "meaning": "편집하다"
+  },
+  {
+    "word": "comprise",
+    "meaning": "구성하다"
+  },
+  {
+    "word": "conceive",
+    "meaning": "생각해 내다"
+  },
+  {
+    "word": "confine",
+    "meaning": "제한하다"
+  },
+  {
+    "word": "consecutive",
+    "meaning": "연속적인"
+  },
+  {
+    "word": "constitute",
+    "meaning": "구성하다"
+  },
+  {
+    "word": "consult",
+    "meaning": "상의하다"
+  },
+  {
+    "word": "contrary",
+    "meaning": "반대의"
+  },
+  {
+    "word": "cultivate",
+    "meaning": "기르다"
+  },
+  {
+    "word": "depress",
+    "meaning": "낮추다"
+  },
+  {
+    "word": "designate",
+    "meaning": "지정하다"
+  },
+  {
+    "word": "displace",
+    "meaning": "대체하다"
+  },
+  {
+    "word": "empower",
+    "meaning": "권한을 주다"
+  },
+  {
+    "word": "enforce",
+    "meaning": "시행하다"
+  },
+  {
+    "word": "entitle",
+    "meaning": "자격을 주다"
+  },
+  {
+    "word": "exempt",
+    "meaning": "면제된"
+  },
+  {
+    "word": "extract",
+    "meaning": "추출하다"
+  },
+  {
+    "word": "formulate",
+    "meaning": "공식화하다"
+  },
+  {
+    "word": "incline",
+    "meaning": "기울다"
+  },
+  {
+    "word": "inherit",
+    "meaning": "물려받다"
+  },
+  {
+    "word": "inspect",
+    "meaning": "점검하다"
+  },
+  {
+    "word": "interfere",
+    "meaning": "방해하다"
+  },
+  {
+    "word": "launch",
+    "meaning": "출시하다"
+  },
+  {
+    "word": "likelihood",
+    "meaning": "가능성"
+  },
+  {
+    "word": "mandatory",
+    "meaning": "의무적인"
+  },
+  {
+    "word": "overlap",
+    "meaning": "겹치다"
+  },
+  {
+    "word": "prospect",
+    "meaning": "전망"
+  },
+  {
+    "word": "revenue",
+    "meaning": "수익"
+  },
+  {
+    "word": "subordinate",
+    "meaning": "하위의"
+  },
+  {
+    "word": "suspend",
+    "meaning": "중단하다"
+  },
+  {
+    "word": "validate",
+    "meaning": "검증하다"
+  },
+  {
+    "word": "warrant",
+    "meaning": "정당화하다"
+  },
+  {
+    "word": "accuse",
+    "meaning": "고발하다"
+  },
+  {
+    "word": "adaptable",
+    "meaning": "적응력 있는"
+  },
+  {
+    "word": "administration",
+    "meaning": "행정"
+  },
+  {
+    "word": "alteration",
+    "meaning": "변경"
+  },
+  {
+    "word": "applicable",
+    "meaning": "적용 가능한"
+  },
+  {
+    "word": "approximate",
+    "meaning": "대략적인"
+  },
+  {
+    "word": "assignable",
+    "meaning": "할당 가능한"
+  },
+  {
+    "word": "beneficiary",
+    "meaning": "수혜자"
+  },
+  {
+    "word": "capability",
+    "meaning": "능력"
+  },
+  {
+    "word": "clarification",
+    "meaning": "명확화"
+  },
+  {
+    "word": "collaborate",
+    "meaning": "협력하다"
+  },
+  {
+    "word": "commence",
+    "meaning": "시작하다"
+  },
+  {
+    "word": "concentration",
+    "meaning": "집중"
+  },
+  {
+    "word": "consent",
+    "meaning": "동의"
+  },
+  {
+    "word": "conservative",
+    "meaning": "보수적인"
+  },
+  {
+    "word": "consistent",
+    "meaning": "일관된"
+  },
+  {
+    "word": "constraint",
+    "meaning": "제약"
+  },
+  {
+    "word": "consultation",
+    "meaning": "상담"
+  },
+  {
+    "word": "consumption",
+    "meaning": "소비"
+  },
+  {
+    "word": "correlation",
+    "meaning": "상관관계"
+  },
+  {
+    "word": "credible",
+    "meaning": "믿을 만한"
+  },
+  {
+    "word": "criterion",
+    "meaning": "기준"
+  },
+  {
+    "word": "declination",
+    "meaning": "감소"
+  },
+  {
+    "word": "deduct",
+    "meaning": "공제하다"
+  },
+  {
+    "word": "demographic",
+    "meaning": "인구 통계의"
+  },
+  {
+    "word": "abroad",
+    "meaning": "해외에"
+  },
+  {
+    "word": "absence",
+    "meaning": "부재"
+  },
+  {
+    "word": "absolute",
+    "meaning": "절대적인"
+  },
+  {
+    "word": "abuse",
+    "meaning": "남용하다"
+  },
+  {
+    "word": "accelerate",
+    "meaning": "가속하다"
+  },
+  {
+    "word": "accent",
+    "meaning": "억양"
+  },
+  {
+    "word": "accompany",
+    "meaning": "동행하다"
+  },
+  {
+    "word": "accord",
+    "meaning": "일치하다"
+  },
+  {
+    "word": "accountable",
+    "meaning": "책임이 있는"
+  },
+  {
+    "word": "achievement",
+    "meaning": "성취"
+  },
+  {
+    "word": "acid",
+    "meaning": "산"
+  },
+  {
+    "word": "adjustment",
+    "meaning": "조정"
+  },
+  {
+    "word": "admission",
+    "meaning": "입장 허가"
+  },
+  {
+    "word": "adolescent",
+    "meaning": "청소년"
+  },
+  {
+    "word": "adopt",
+    "meaning": "채택하다"
+  },
+  {
+    "word": "adverse",
+    "meaning": "불리한"
+  },
+  {
+    "word": "affection",
+    "meaning": "애정"
+  },
+  {
+    "word": "agenda",
+    "meaning": "의제"
+  },
+  {
+    "word": "agriculture",
+    "meaning": "농업"
+  },
+  {
+    "word": "aid",
+    "meaning": "돕다"
+  },
+  {
+    "word": "aircraft",
+    "meaning": "항공기"
+  },
+  {
+    "word": "aisle",
+    "meaning": "통로"
+  },
+  {
+    "word": "alien",
+    "meaning": "외계인"
+  },
+  {
+    "word": "alike",
+    "meaning": "비슷한"
+  },
+  {
+    "word": "alliance",
+    "meaning": "동맹"
+  },
+  {
+    "word": "altitude",
+    "meaning": "고도"
+  },
+  {
+    "word": "ambassador",
+    "meaning": "대사"
+  },
+  {
+    "word": "ambition",
+    "meaning": "야망"
+  },
+  {
+    "word": "amend",
+    "meaning": "수정하다"
+  },
+  {
+    "word": "amusement",
+    "meaning": "즐거움"
+  },
+  {
+    "word": "analysis",
+    "meaning": "분석"
+  },
+  {
+    "word": "ancestor",
+    "meaning": "조상"
+  },
+  {
+    "word": "anchor",
+    "meaning": "닻"
+  },
+  {
+    "word": "appetite",
+    "meaning": "식욕"
+  },
+  {
+    "word": "appliance",
+    "meaning": "가전제품"
+  },
+  {
+    "word": "appoint",
+    "meaning": "임명하다"
+  },
+  {
+    "word": "appreciation",
+    "meaning": "감사"
+  },
+  {
+    "word": "approval",
+    "meaning": "승인"
+  },
+  {
+    "word": "arbitrary",
+    "meaning": "임의의"
+  },
+  {
+    "word": "architecture",
+    "meaning": "건축"
+  },
+  {
+    "word": "archive",
+    "meaning": "기록 보관소"
+  },
+  {
+    "word": "armed",
+    "meaning": "무장한"
+  },
+  {
+    "word": "array",
+    "meaning": "배열"
+  },
+  {
+    "word": "ashamed",
+    "meaning": "부끄러운"
+  },
+  {
+    "word": "aspect",
+    "meaning": "측면"
+  },
+  {
+    "word": "assert",
+    "meaning": "주장하다"
+  },
+  {
+    "word": "assessment",
+    "meaning": "평가"
+  },
+  {
+    "word": "asset",
+    "meaning": "자산"
+  },
+  {
+    "word": "assistance",
+    "meaning": "도움"
+  },
+  {
+    "word": "assumption",
+    "meaning": "가정"
+  },
+  {
+    "word": "astonish",
+    "meaning": "놀라게 하다"
+  },
+  {
+    "word": "athlete",
+    "meaning": "운동선수"
+  },
+  {
+    "word": "atmosphere",
+    "meaning": "대기"
+  },
+  {
+    "word": "attach",
+    "meaning": "붙이다"
+  },
+  {
+    "word": "attendance",
+    "meaning": "출석"
+  },
+  {
+    "word": "attorney",
+    "meaning": "변호사"
+  },
+  {
+    "word": "auction",
+    "meaning": "경매"
+  },
+  {
+    "word": "audience",
+    "meaning": "청중"
+  },
+  {
+    "word": "authentic",
+    "meaning": "진짜의"
+  },
+  {
+    "word": "authorize",
+    "meaning": "권한을 부여하다"
+  },
+  {
+    "word": "automatic",
+    "meaning": "자동의"
+  },
+  {
+    "word": "availability",
+    "meaning": "이용 가능성"
+  },
+  {
+    "word": "await",
+    "meaning": "기다리다"
+  },
+  {
+    "word": "awareness",
+    "meaning": "인식"
+  },
+  {
+    "word": "awkward",
+    "meaning": "어색한"
+  },
+  {
+    "word": "background",
+    "meaning": "배경"
+  },
+  {
+    "word": "badge",
+    "meaning": "배지"
+  },
+  {
+    "word": "barely",
+    "meaning": "거의 ~않게"
+  },
+  {
+    "word": "bargain",
+    "meaning": "싼 물건"
+  },
+  {
+    "word": "barrier",
+    "meaning": "장벽"
+  },
+  {
+    "word": "basement",
+    "meaning": "지하실"
+  },
+  {
+    "word": "basis",
+    "meaning": "기초"
+  },
+  {
+    "word": "behavior",
+    "meaning": "행동"
+  },
+  {
+    "word": "biography",
+    "meaning": "전기"
+  },
+  {
+    "word": "blanket",
+    "meaning": "담요"
+  },
+  {
+    "word": "blast",
+    "meaning": "폭발"
+  },
+  {
+    "word": "blend",
+    "meaning": "섞다"
+  },
+  {
+    "word": "bless",
+    "meaning": "축복하다"
+  },
+  {
+    "word": "brand",
+    "meaning": "상표"
+  },
+  {
+    "word": "breakdown",
+    "meaning": "고장"
+  },
+  {
+    "word": "breast",
+    "meaning": "가슴"
+  },
+  {
+    "word": "breed",
+    "meaning": "품종"
+  },
+  {
+    "word": "briefly",
+    "meaning": "간단히"
+  },
+  {
+    "word": "brilliant",
+    "meaning": "훌륭한"
+  },
+  {
+    "word": "broadcast",
+    "meaning": "방송하다"
+  },
+  {
+    "word": "budget",
+    "meaning": "예산"
+  },
+  {
+    "word": "burden",
+    "meaning": "부담"
+  },
+  {
+    "word": "cabinet",
+    "meaning": "캐비닛"
+  },
+  {
+    "word": "calculate",
+    "meaning": "계산하다"
+  },
+  {
+    "word": "campaign",
+    "meaning": "운동"
+  },
+  {
+    "word": "candidate",
+    "meaning": "후보자"
+  },
+  {
+    "word": "capacity",
+    "meaning": "능력"
+  },
+  {
+    "word": "capitalism",
+    "meaning": "자본주의"
+  },
+  {
+    "word": "cargo",
+    "meaning": "화물"
+  },
+  {
+    "word": "carve",
+    "meaning": "조각하다"
+  },
+  {
+    "word": "casual",
+    "meaning": "격식 없는"
+  },
+  {
+    "word": "catalog",
+    "meaning": "목록"
+  },
+  {
+    "word": "caution",
+    "meaning": "주의"
+  },
+  {
+    "word": "celebrity",
+    "meaning": "유명인"
+  },
+  {
+    "word": "cellular",
+    "meaning": "세포의"
+  },
+  {
+    "word": "ceremony",
+    "meaning": "의식"
+  },
+  {
+    "word": "certificate",
+    "meaning": "증명서"
+  },
+  {
+    "word": "chamber",
+    "meaning": "방"
+  },
+  {
+    "word": "chaos",
+    "meaning": "혼란"
+  },
+  {
+    "word": "characteristic",
+    "meaning": "특징"
+  },
+  {
+    "word": "charity",
+    "meaning": "자선"
+  },
+  {
+    "word": "charm",
+    "meaning": "매력"
+  },
+  {
+    "word": "chemical",
+    "meaning": "화학 물질"
+  },
+  {
+    "word": "chief",
+    "meaning": "주요한"
+  },
+  {
+    "word": "citizen",
+    "meaning": "시민"
+  },
+  {
+    "word": "civilization",
+    "meaning": "문명"
+  },
+  {
+    "word": "classify",
+    "meaning": "분류하다"
+  },
+  {
+    "word": "client",
+    "meaning": "고객"
+  },
+  {
+    "word": "climate",
+    "meaning": "기후"
+  },
+  {
+    "word": "clinical",
+    "meaning": "임상의"
+  },
+  {
+    "word": "cluster",
+    "meaning": "무리"
+  },
+  {
+    "word": "coincidence",
+    "meaning": "우연의 일치"
+  },
+  {
+    "word": "colleague",
+    "meaning": "동료"
+  },
+  {
+    "word": "collective",
+    "meaning": "집단의"
+  },
+  {
+    "word": "colonial",
+    "meaning": "식민지의"
+  },
+  {
+    "word": "column",
+    "meaning": "기둥"
+  },
+  {
+    "word": "combination",
+    "meaning": "조합"
+  },
+  {
+    "word": "comfort",
+    "meaning": "편안함"
+  },
+  {
+    "word": "commander",
+    "meaning": "지휘관"
+  },
+  {
+    "word": "commerce",
+    "meaning": "상업"
+  },
+  {
+    "word": "commission",
+    "meaning": "위원회"
+  },
+  {
+    "word": "commitment",
+    "meaning": "약속"
+  },
+  {
+    "word": "community",
+    "meaning": "공동체"
+  },
+  {
+    "word": "companion",
+    "meaning": "동반자"
+  },
+  {
+    "word": "comparison",
+    "meaning": "비교"
+  },
+  {
+    "word": "competition",
+    "meaning": "경쟁"
+  },
+  {
+    "word": "complexity",
+    "meaning": "복잡성"
+  },
+  {
+    "word": "compose",
+    "meaning": "구성하다"
+  },
+  {
+    "word": "composition",
+    "meaning": "구성"
+  },
+  {
+    "word": "compound",
+    "meaning": "화합물"
+  },
+  {
+    "word": "compromise",
+    "meaning": "타협"
+  },
+  {
+    "word": "conclusion",
+    "meaning": "결론"
+  },
+  {
+    "word": "conference",
+    "meaning": "회의"
+  },
+  {
+    "word": "confess",
+    "meaning": "고백하다"
+  },
+  {
+    "word": "confidence",
+    "meaning": "자신감"
+  },
+  {
+    "word": "confront",
+    "meaning": "맞서다"
+  },
+  {
+    "word": "confusion",
+    "meaning": "혼란"
+  },
+  {
+    "word": "congress",
+    "meaning": "의회"
+  },
+  {
+    "word": "consideration",
+    "meaning": "고려"
+  },
+  {
+    "word": "construct",
+    "meaning": "건설하다"
+  },
+  {
+    "word": "construction",
+    "meaning": "건설"
+  },
+  {
+    "word": "consumer",
+    "meaning": "소비자"
+  },
+  {
+    "word": "contact",
+    "meaning": "연락"
+  },
+  {
+    "word": "content",
+    "meaning": "내용"
+  },
+  {
+    "word": "context",
+    "meaning": "맥락"
+  },
+  {
+    "word": "contract",
+    "meaning": "계약"
+  },
+  {
+    "word": "contrast",
+    "meaning": "대조"
+  },
+  {
+    "word": "contribution",
+    "meaning": "기여"
+  },
+  {
+    "word": "convention",
+    "meaning": "관습"
+  },
+  {
+    "word": "conversion",
+    "meaning": "전환"
+  },
+  {
+    "word": "cooperation",
+    "meaning": "협력"
+  },
+  {
+    "word": "corporate",
+    "meaning": "기업의"
+  },
+  {
+    "word": "corporation",
+    "meaning": "기업"
+  },
+  {
+    "word": "correspondence",
+    "meaning": "서신"
+  },
+  {
+    "word": "council",
+    "meaning": "위원회"
+  },
+  {
+    "word": "counsel",
+    "meaning": "조언하다"
+  },
+  {
+    "word": "counterpart",
+    "meaning": "상대편"
+  },
+  {
+    "word": "coverage",
+    "meaning": "보도 범위"
+  },
+  {
+    "word": "creation",
+    "meaning": "창조"
+  },
+  {
+    "word": "creative",
+    "meaning": "창의적인"
+  },
+  {
+    "word": "creativity",
+    "meaning": "창의성"
+  },
+  {
+    "word": "criminal",
+    "meaning": "범죄자"
+  },
+  {
+    "word": "crisis",
+    "meaning": "위기"
+  },
+  {
+    "word": "cultural",
+    "meaning": "문화의"
+  },
+  {
+    "word": "culture",
+    "meaning": "문화"
+  },
+  {
+    "word": "currency",
+    "meaning": "통화"
+  },
+  {
+    "word": "current",
+    "meaning": "현재의"
+  },
+  {
+    "word": "currently",
+    "meaning": "현재"
+  },
+  {
+    "word": "curriculum",
+    "meaning": "교육 과정"
+  },
+  {
+    "word": "custom",
+    "meaning": "관습"
+  },
+  {
+    "word": "customer",
+    "meaning": "고객"
+  },
+  {
+    "word": "damage",
+    "meaning": "손상"
+  },
+  {
+    "word": "debate",
+    "meaning": "토론"
+  },
+  {
+    "word": "decade",
+    "meaning": "10년"
+  },
+  {
+    "word": "decorate",
+    "meaning": "장식하다"
+  },
+  {
+    "word": "dedicate",
+    "meaning": "바치다"
+  },
+  {
+    "word": "definition",
+    "meaning": "정의"
+  },
+  {
+    "word": "delivery",
+    "meaning": "배달"
+  },
+  {
+    "word": "demand",
+    "meaning": "요구하다"
+  },
+  {
+    "word": "demonstration",
+    "meaning": "시연"
+  },
+  {
+    "word": "denial",
+    "meaning": "부인"
+  },
+  {
+    "word": "density",
+    "meaning": "밀도"
+  },
+  {
+    "word": "department",
+    "meaning": "부서"
+  },
+  {
+    "word": "dependence",
+    "meaning": "의존"
+  },
+  {
+    "word": "dependent",
+    "meaning": "의존하는"
+  },
+  {
+    "word": "deposit",
+    "meaning": "예금"
+  },
+  {
+    "word": "depression",
+    "meaning": "우울"
+  },
+  {
+    "word": "description",
+    "meaning": "설명"
+  },
+  {
+    "word": "desperate",
+    "meaning": "절박한"
+  },
+  {
+    "word": "destination",
+    "meaning": "목적지"
+  },
+  {
+    "word": "destruction",
+    "meaning": "파괴"
+  },
+  {
+    "word": "detail",
+    "meaning": "세부 사항"
+  },
+  {
+    "word": "detect",
+    "meaning": "감지하다"
+  },
+  {
+    "word": "detection",
+    "meaning": "탐지"
+  },
+  {
+    "word": "determination",
+    "meaning": "결심"
+  },
+  {
+    "word": "development",
+    "meaning": "발전"
+  },
+  {
+    "word": "dialogue",
+    "meaning": "대화"
+  },
+  {
+    "word": "difference",
+    "meaning": "차이"
+  },
+  {
+    "word": "disability",
+    "meaning": "장애"
+  },
+  {
+    "word": "disagreement",
+    "meaning": "의견 차이"
+  },
+  {
+    "word": "disaster",
+    "meaning": "재난"
+  },
+  {
+    "word": "discipline",
+    "meaning": "규율"
+  },
+  {
+    "word": "disclose",
+    "meaning": "밝히다"
+  },
+  {
+    "word": "discount",
+    "meaning": "할인"
+  },
+  {
+    "word": "discrimination",
+    "meaning": "차별"
+  },
+  {
+    "word": "discussion",
+    "meaning": "토론"
+  },
+  {
+    "word": "dismiss",
+    "meaning": "해고하다"
+  },
+  {
+    "word": "disorder",
+    "meaning": "장애"
+  },
+  {
+    "word": "display",
+    "meaning": "전시하다"
+  },
+  {
+    "word": "disposal",
+    "meaning": "처분"
+  },
+  {
+    "word": "dispute",
+    "meaning": "분쟁"
+  },
+  {
+    "word": "distinction",
+    "meaning": "차이"
+  },
+  {
+    "word": "distinctive",
+    "meaning": "독특한"
+  },
+  {
+    "word": "distribution",
+    "meaning": "분배"
+  },
+  {
+    "word": "district",
+    "meaning": "지역"
+  },
+  {
+    "word": "division",
+    "meaning": "분할"
+  },
+  {
+    "word": "donation",
+    "meaning": "기부"
+  },
+  {
+    "word": "dramatic",
+    "meaning": "극적인"
+  },
+  {
+    "word": "economic",
+    "meaning": "경제의"
+  },
+  {
+    "word": "economics",
+    "meaning": "경제학"
+  },
+  {
+    "word": "economist",
+    "meaning": "경제학자"
+  },
+  {
+    "word": "economy",
+    "meaning": "경제"
+  },
+  {
+    "word": "edition",
+    "meaning": "판"
+  },
+  {
+    "word": "editor",
+    "meaning": "편집자"
+  },
+  {
+    "word": "educate",
+    "meaning": "교육하다"
+  },
+  {
+    "word": "education",
+    "meaning": "교육"
+  },
+  {
+    "word": "educational",
+    "meaning": "교육의"
+  },
+  {
+    "word": "effective",
+    "meaning": "효과적인"
+  },
+  {
+    "word": "efficiency",
+    "meaning": "효율성"
+  },
+  {
+    "word": "element",
+    "meaning": "요소"
+  },
+  {
+    "word": "emergency",
+    "meaning": "비상사태"
+  },
+  {
+    "word": "emission",
+    "meaning": "배출"
+  },
+  {
+    "word": "emphasis",
+    "meaning": "강조"
+  },
+  {
+    "word": "empire",
+    "meaning": "제국"
+  },
+  {
+    "word": "employment",
+    "meaning": "고용"
+  },
+  {
+    "word": "encouragement",
+    "meaning": "격려"
+  },
+  {
+    "word": "energy",
+    "meaning": "에너지"
+  },
+  {
+    "word": "enforcement",
+    "meaning": "시행"
+  },
+  {
+    "word": "engage",
+    "meaning": "참여하다"
+  },
+  {
+    "word": "engineer",
+    "meaning": "기술자"
+  },
+  {
+    "word": "engineering",
+    "meaning": "공학"
+  },
+  {
+    "word": "enormous",
+    "meaning": "거대한"
+  },
+  {
+    "word": "enterprise",
+    "meaning": "기업"
+  },
+  {
+    "word": "entertainment",
+    "meaning": "오락"
+  },
+  {
+    "word": "enthusiasm",
+    "meaning": "열정"
+  },
+  {
+    "word": "entirely",
+    "meaning": "완전히"
+  },
+  {
+    "word": "environment",
+    "meaning": "환경"
+  },
+  {
+    "word": "environmental",
+    "meaning": "환경의"
+  },
+  {
+    "word": "episode",
+    "meaning": "일화"
+  },
+  {
+    "word": "equation",
+    "meaning": "방정식"
+  },
+  {
+    "word": "equipment",
+    "meaning": "장비"
+  },
+  {
+    "word": "era",
+    "meaning": "시대"
+  },
+  {
+    "word": "error",
+    "meaning": "오류"
+  },
+  {
+    "word": "escape",
+    "meaning": "탈출하다"
+  },
+  {
+    "word": "ethics",
+    "meaning": "윤리"
+  },
+  {
+    "word": "evaluation",
+    "meaning": "평가"
+  },
+  {
+    "word": "evolution",
+    "meaning": "진화"
+  },
+  {
+    "word": "examination",
+    "meaning": "시험"
+  },
+  {
+    "word": "exception",
+    "meaning": "예외"
+  },
+  {
+    "word": "excess",
+    "meaning": "초과"
+  },
+  {
+    "word": "exchange",
+    "meaning": "교환"
+  },
+  {
+    "word": "excitement",
+    "meaning": "흥분"
+  },
+  {
+    "word": "exclusion",
+    "meaning": "제외"
+  },
+  {
+    "word": "executive",
+    "meaning": "경영진"
+  },
+  {
+    "word": "exhibition",
+    "meaning": "전시회"
+  },
+  {
+    "word": "existence",
+    "meaning": "존재"
+  },
+  {
+    "word": "expansion",
+    "meaning": "확장"
+  },
+  {
+    "word": "expectation",
+    "meaning": "기대"
+  },
+  {
+    "word": "expenditure",
+    "meaning": "지출"
+  },
+  {
+    "word": "expense",
+    "meaning": "비용"
+  },
+  {
+    "word": "expertise",
+    "meaning": "전문 지식"
+  },
+  {
+    "word": "explanation",
+    "meaning": "설명"
+  },
+  {
+    "word": "exploration",
+    "meaning": "탐험"
+  },
+  {
+    "word": "exposure",
+    "meaning": "노출"
+  },
+  {
+    "word": "extension",
+    "meaning": "확장"
+  },
+  {
+    "word": "extensive",
+    "meaning": "광범위한"
+  },
+  {
+    "word": "external",
+    "meaning": "외부의"
+  },
+  {
+    "word": "facility",
+    "meaning": "시설"
+  },
+  {
+    "word": "factor",
+    "meaning": "요인"
+  },
+  {
+    "word": "failure",
+    "meaning": "실패"
+  },
+  {
+    "word": "familiarity",
+    "meaning": "친숙함"
+  },
+  {
+    "word": "fantasy",
+    "meaning": "공상"
+  },
+  {
+    "word": "federal",
+    "meaning": "연방의"
+  },
+  {
+    "word": "feedback",
+    "meaning": "피드백"
+  },
+  {
+    "word": "finance",
+    "meaning": "재정"
+  },
+  {
+    "word": "financial",
+    "meaning": "재정의"
+  },
+  {
+    "word": "finding",
+    "meaning": "발견"
+  },
+  {
+    "word": "flexibility",
+    "meaning": "유연성"
+  },
+  {
+    "word": "flourish",
+    "meaning": "번성하다"
+  },
+  {
+    "word": "foundation",
+    "meaning": "기초"
+  },
+  {
+    "word": "frequency",
+    "meaning": "빈도"
+  },
+  {
+    "word": "funding",
+    "meaning": "자금 지원"
+  },
+  {
+    "word": "furthermore",
+    "meaning": "게다가"
+  },
+  {
+    "word": "generation",
+    "meaning": "세대"
+  },
+  {
+    "word": "global",
+    "meaning": "세계적인"
+  },
+  {
+    "word": "globalization",
+    "meaning": "세계화"
+  },
+  {
+    "word": "goal",
+    "meaning": "목표"
+  },
+  {
+    "word": "govern",
+    "meaning": "통치하다"
+  },
+  {
+    "word": "government",
+    "meaning": "정부"
+  },
+  {
+    "word": "guideline",
+    "meaning": "지침"
+  },
+  {
+    "word": "guidance",
+    "meaning": "안내"
+  },
+  {
+    "word": "habitat",
+    "meaning": "서식지"
+  },
+  {
+    "word": "historical",
+    "meaning": "역사적인"
+  },
+  {
+    "word": "identity",
+    "meaning": "정체성"
+  },
+  {
+    "word": "illustration",
+    "meaning": "삽화"
+  },
+  {
+    "word": "immigration",
+    "meaning": "이민"
+  },
+  {
+    "word": "impact",
+    "meaning": "영향"
+  },
+  {
+    "word": "implementation",
+    "meaning": "실행"
+  },
+  {
+    "word": "implication",
+    "meaning": "영향"
+  },
+  {
+    "word": "importance",
+    "meaning": "중요성"
+  },
+  {
+    "word": "impressive",
+    "meaning": "인상적인"
+  },
+  {
+    "word": "improvement",
+    "meaning": "개선"
+  },
+  {
+    "word": "incident",
+    "meaning": "사건"
+  },
+  {
+    "word": "income",
+    "meaning": "수입"
+  },
+  {
+    "word": "independence",
+    "meaning": "독립"
+  },
+  {
+    "word": "independent",
+    "meaning": "독립적인"
+  },
+  {
+    "word": "indication",
+    "meaning": "징후"
+  },
+  {
+    "word": "industrial",
+    "meaning": "산업의"
+  },
+  {
+    "word": "industry",
+    "meaning": "산업"
+  },
+  {
+    "word": "inequality",
+    "meaning": "불평등"
+  },
+  {
+    "word": "influential",
+    "meaning": "영향력 있는"
+  },
+  {
+    "word": "information",
+    "meaning": "정보"
+  },
+  {
+    "word": "initiative",
+    "meaning": "주도권"
+  },
+  {
+    "word": "innovation",
+    "meaning": "혁신"
+  },
+  {
+    "word": "input",
+    "meaning": "투입"
+  },
+  {
+    "word": "inspection",
+    "meaning": "검사"
+  },
+  {
+    "word": "inspiration",
+    "meaning": "영감"
+  },
+  {
+    "word": "institution",
+    "meaning": "기관"
+  },
+  {
+    "word": "institutional",
+    "meaning": "기관의"
+  },
+  {
+    "word": "instruction",
+    "meaning": "지시"
+  },
+  {
+    "word": "instrument",
+    "meaning": "도구"
+  },
+  {
+    "word": "insurance",
+    "meaning": "보험"
+  },
+  {
+    "word": "intellectual",
+    "meaning": "지적인"
+  },
+  {
+    "word": "intelligence",
+    "meaning": "지능"
+  },
+  {
+    "word": "intention",
+    "meaning": "의도"
+  },
+  {
+    "word": "interaction",
+    "meaning": "상호 작용"
+  },
+  {
+    "word": "interactive",
+    "meaning": "상호 작용하는"
+  },
+  {
+    "word": "interpretation",
+    "meaning": "해석"
+  },
+  {
+    "word": "interval",
+    "meaning": "간격"
+  },
+  {
+    "word": "intervention",
+    "meaning": "개입"
+  },
+  {
+    "word": "investigation",
+    "meaning": "조사"
+  },
+  {
+    "word": "investment",
+    "meaning": "투자"
+  },
+  {
+    "word": "investor",
+    "meaning": "투자자"
+  },
+  {
+    "word": "involvement",
+    "meaning": "참여"
+  },
+  {
+    "word": "isolation",
+    "meaning": "고립"
+  },
+  {
+    "word": "journalism",
+    "meaning": "저널리즘"
+  },
+  {
+    "word": "judgment",
+    "meaning": "판단"
+  },
+  {
+    "word": "knowledge",
+    "meaning": "지식"
+  },
+  {
+    "word": "laboratory",
+    "meaning": "실험실"
+  },
+  {
+    "word": "landscape",
+    "meaning": "풍경"
+  },
+  {
+    "word": "legislation",
+    "meaning": "법률"
+  },
+  {
+    "word": "liberal",
+    "meaning": "자유주의의"
+  },
+  {
+    "word": "liberty",
+    "meaning": "자유"
+  },
+  {
+    "word": "limitation",
+    "meaning": "제한"
+  },
+  {
+    "word": "literary",
+    "meaning": "문학의"
+  },
+  {
+    "word": "literature",
+    "meaning": "문학"
+  },
+  {
+    "word": "location",
+    "meaning": "위치"
+  },
+  {
+    "word": "logic",
+    "meaning": "논리"
+  },
+  {
+    "word": "logical",
+    "meaning": "논리적인"
+  },
+  {
+    "word": "maintenance",
+    "meaning": "유지"
+  },
+  {
+    "word": "majority",
+    "meaning": "대다수"
+  },
+  {
+    "word": "management",
+    "meaning": "관리"
+  },
+  {
+    "word": "managerial",
+    "meaning": "관리의"
+  },
+  {
+    "word": "manufacturer",
+    "meaning": "제조업자"
+  },
+  {
+    "word": "manufacturing",
+    "meaning": "제조업"
+  },
+  {
+    "word": "margin",
+    "meaning": "여백"
+  },
+  {
+    "word": "marketing",
+    "meaning": "마케팅"
+  },
+  {
+    "word": "measurement",
+    "meaning": "측정"
+  },
+  {
+    "word": "media",
+    "meaning": "매체"
+  },
+  {
+    "word": "medical",
+    "meaning": "의학의"
+  },
+  {
+    "word": "membership",
+    "meaning": "회원 자격"
+  },
+  {
+    "word": "mental",
+    "meaning": "정신의"
+  },
+  {
+    "word": "methodology",
+    "meaning": "방법론"
+  },
+  {
+    "word": "migration",
+    "meaning": "이주"
+  },
+  {
+    "word": "military",
+    "meaning": "군대의"
+  },
+  {
+    "word": "minority",
+    "meaning": "소수"
+  },
+  {
+    "word": "mission",
+    "meaning": "임무"
+  },
+  {
+    "word": "mixture",
+    "meaning": "혼합물"
+  },
+  {
+    "word": "mobility",
+    "meaning": "이동성"
+  },
+  {
+    "word": "monitor",
+    "meaning": "감시하다"
+  },
+  {
+    "word": "motivation",
+    "meaning": "동기"
+  },
+  {
+    "word": "municipal",
+    "meaning": "시의"
+  },
+  {
+    "word": "narrative",
+    "meaning": "이야기"
+  },
+  {
+    "word": "nation",
+    "meaning": "국가"
+  },
+  {
+    "word": "national",
+    "meaning": "국가의"
+  },
+  {
+    "word": "native",
+    "meaning": "토착의"
+  },
+  {
+    "word": "natural",
+    "meaning": "자연의"
+  },
+  {
+    "word": "necessarily",
+    "meaning": "반드시"
+  },
+  {
+    "word": "necessity",
+    "meaning": "필요성"
+  },
+  {
+    "word": "negative",
+    "meaning": "부정적인"
+  },
+  {
+    "word": "negotiation",
+    "meaning": "협상"
+  },
+  {
+    "word": "network",
+    "meaning": "망"
+  },
+  {
+    "word": "obligation",
+    "meaning": "의무"
+  },
+  {
+    "word": "observation",
+    "meaning": "관찰"
+  },
+  {
+    "word": "occasion",
+    "meaning": "경우"
+  },
+  {
+    "word": "occupation",
+    "meaning": "직업"
+  },
+  {
+    "word": "operation",
+    "meaning": "작업"
+  },
+  {
+    "word": "opponent",
+    "meaning": "상대"
+  },
+  {
+    "word": "opportunity",
+    "meaning": "기회"
+  },
+  {
+    "word": "opposition",
+    "meaning": "반대"
+  },
+  {
+    "word": "option",
+    "meaning": "선택지"
+  },
+  {
+    "word": "ordinary",
+    "meaning": "평범한"
+  },
+  {
+    "word": "organization",
+    "meaning": "조직"
+  },
+  {
+    "word": "organizational",
+    "meaning": "조직의"
+  },
+  {
+    "word": "origin",
+    "meaning": "기원"
+  },
+  {
+    "word": "outcome",
+    "meaning": "결과"
+  },
+  {
+    "word": "ownership",
+    "meaning": "소유권"
+  },
+  {
+    "word": "participation",
+    "meaning": "참여"
+  },
+  {
+    "word": "partnership",
+    "meaning": "협력 관계"
+  },
+  {
+    "word": "perception",
+    "meaning": "인식"
+  },
+  {
+    "word": "performance",
+    "meaning": "성과"
+  },
+  {
+    "word": "period",
+    "meaning": "기간"
+  },
+  {
+    "word": "permission",
+    "meaning": "허가"
+  },
+  {
+    "word": "personality",
+    "meaning": "성격"
+  },
+  {
+    "word": "philosophy",
+    "meaning": "철학"
+  },
+  {
+    "word": "physical",
+    "meaning": "신체의"
+  },
+  {
+    "word": "policy",
+    "meaning": "정책"
+  },
+  {
+    "word": "political",
+    "meaning": "정치의"
+  },
+  {
+    "word": "politics",
+    "meaning": "정치"
+  },
+  {
+    "word": "population",
+    "meaning": "인구"
+  },
+  {
+    "word": "poverty",
+    "meaning": "빈곤"
+  },
+  {
+    "word": "practice",
+    "meaning": "실천"
+  },
+  {
+    "word": "practical",
+    "meaning": "실용적인"
+  },
+  {
+    "word": "prediction",
+    "meaning": "예측"
+  },
+  {
+    "word": "preference",
+    "meaning": "선호"
+  },
+  {
+    "word": "preparation",
+    "meaning": "준비"
+  },
+  {
+    "word": "presence",
+    "meaning": "존재"
+  },
+  {
+    "word": "presentation",
+    "meaning": "발표"
+  },
+  {
+    "word": "preservation",
+    "meaning": "보존"
+  },
+  {
+    "word": "pressure",
+    "meaning": "압박"
+  },
+  {
+    "word": "procedure",
+    "meaning": "절차"
+  },
+  {
+    "word": "process",
+    "meaning": "과정"
+  },
+  {
+    "word": "professional",
+    "meaning": "전문적인"
+  },
+  {
+    "word": "profession",
+    "meaning": "직업"
+  },
+  {
+    "word": "profit",
+    "meaning": "이익"
+  },
+  {
+    "word": "promotion",
+    "meaning": "승진"
+  },
+  {
+    "word": "proposal",
+    "meaning": "제안"
+  },
+  {
+    "word": "protection",
+    "meaning": "보호"
+  },
+  {
+    "word": "psychological",
+    "meaning": "심리적인"
+  },
+  {
+    "word": "psychology",
+    "meaning": "심리학"
+  },
+  {
+    "word": "publication",
+    "meaning": "출판물"
+  },
+  {
+    "word": "publicity",
+    "meaning": "홍보"
+  },
+  {
+    "word": "purpose",
+    "meaning": "목적"
+  },
+  {
+    "word": "pursuit",
+    "meaning": "추구"
+  },
+  {
+    "word": "qualification",
+    "meaning": "자격"
+  },
+  {
+    "word": "quality",
+    "meaning": "질"
+  },
+  {
+    "word": "quantity",
+    "meaning": "양"
+  },
+  {
+    "word": "reaction",
+    "meaning": "반응"
+  },
+  {
+    "word": "reality",
+    "meaning": "현실"
+  },
+  {
+    "word": "reasoning",
+    "meaning": "추론"
+  },
+  {
+    "word": "recognition",
+    "meaning": "인정"
+  },
+  {
+    "word": "recommendation",
+    "meaning": "추천"
+  },
+  {
+    "word": "recovery",
+    "meaning": "회복"
+  },
+  {
+    "word": "reduction",
+    "meaning": "감소"
+  },
+  {
+    "word": "reference",
+    "meaning": "참고"
+  },
+  {
+    "word": "reflection",
+    "meaning": "반영"
+  },
+  {
+    "word": "reform",
+    "meaning": "개혁"
+  },
+  {
+    "word": "region",
+    "meaning": "지역"
+  },
+  {
+    "word": "regional",
+    "meaning": "지역의"
+  },
+  {
+    "word": "regulation",
+    "meaning": "규정"
+  },
+  {
+    "word": "relationship",
+    "meaning": "관계"
+  },
+  {
+    "word": "reliability",
+    "meaning": "신뢰성"
+  },
+  {
+    "word": "relief",
+    "meaning": "안도"
+  },
+  {
+    "word": "religion",
+    "meaning": "종교"
+  },
+  {
+    "word": "replacement",
+    "meaning": "대체"
+  },
+  {
+    "word": "representation",
+    "meaning": "표현"
+  },
+  {
+    "word": "representative",
+    "meaning": "대표자"
+  },
+  {
+    "word": "requirement",
+    "meaning": "요건"
+  },
+  {
+    "word": "researcher",
+    "meaning": "연구자"
+  },
+  {
+    "word": "resistance",
+    "meaning": "저항"
+  },
+  {
+    "word": "resolution",
+    "meaning": "해결"
+  },
+  {
+    "word": "resource",
+    "meaning": "자원"
+  },
+  {
+    "word": "responsibility",
+    "meaning": "책임"
+  },
+  {
+    "word": "restriction",
+    "meaning": "제한"
+  },
+  {
+    "word": "result",
+    "meaning": "결과"
+  },
+  {
+    "word": "review",
+    "meaning": "검토"
+  },
+  {
+    "word": "revision",
+    "meaning": "수정"
+  },
+  {
+    "word": "risk",
+    "meaning": "위험"
+  },
+  {
+    "word": "role",
+    "meaning": "역할"
+  },
+  {
+    "word": "routine",
+    "meaning": "일과"
+  },
+  {
+    "word": "safety",
+    "meaning": "안전"
+  },
+  {
+    "word": "scenario",
+    "meaning": "시나리오"
+  },
+  {
+    "word": "schedule",
+    "meaning": "일정"
+  },
+  {
+    "word": "scheme",
+    "meaning": "계획"
+  },
+  {
+    "word": "scientific",
+    "meaning": "과학의"
+  },
+  {
+    "word": "scientist",
+    "meaning": "과학자"
+  },
+  {
+    "word": "section",
+    "meaning": "부분"
+  },
+  {
+    "word": "sector",
+    "meaning": "부문"
+  },
+  {
+    "word": "selection",
+    "meaning": "선택"
+  },
+  {
+    "word": "series",
+    "meaning": "연속"
+  },
+  {
+    "word": "significance",
+    "meaning": "중요성"
+  },
+  {
+    "word": "similarity",
+    "meaning": "유사성"
+  },
+  {
+    "word": "society",
+    "meaning": "사회"
+  },
+  {
+    "word": "social",
+    "meaning": "사회적인"
+  },
+  {
+    "word": "software",
+    "meaning": "소프트웨어"
+  },
+  {
+    "word": "solution",
+    "meaning": "해결책"
+  },
+  {
+    "word": "source",
+    "meaning": "출처"
+  },
+  {
+    "word": "specifically",
+    "meaning": "구체적으로"
+  },
+  {
+    "word": "specification",
+    "meaning": "명세"
+  },
+  {
+    "word": "stability",
+    "meaning": "안정성"
+  },
+  {
+    "word": "standard",
+    "meaning": "기준"
+  },
+  {
+    "word": "structure",
+    "meaning": "구조"
+  },
+  {
+    "word": "substance",
+    "meaning": "물질"
+  },
+  {
+    "word": "summary",
+    "meaning": "요약"
+  },
+  {
+    "word": "survey",
+    "meaning": "설문 조사"
+  },
+  {
+    "word": "symbol",
+    "meaning": "상징"
+  },
+  {
+    "word": "symbolic",
+    "meaning": "상징적인"
+  },
+  {
+    "word": "systematic",
+    "meaning": "체계적인"
+  },
+  {
+    "word": "technology",
+    "meaning": "기술"
+  },
+  {
+    "word": "traditional",
+    "meaning": "전통적인"
+  },
+  {
+    "word": "transformation",
+    "meaning": "변화"
+  },
+  {
+    "word": "transition",
+    "meaning": "전환"
+  },
+  {
+    "word": "transportation",
+    "meaning": "교통"
+  },
+  {
+    "word": "trend",
+    "meaning": "경향"
+  },
+  {
+    "word": "ultimate",
+    "meaning": "궁극적인"
+  },
+  {
+    "word": "understanding",
+    "meaning": "이해"
+  },
+  {
+    "word": "universe",
+    "meaning": "우주"
+  },
+  {
+    "word": "variation",
+    "meaning": "변화"
+  },
+  {
+    "word": "variety",
+    "meaning": "다양성"
+  },
+  {
+    "word": "vehicle",
+    "meaning": "차량"
+  },
+  {
+    "word": "version",
+    "meaning": "버전"
+  },
+  {
+    "word": "victim",
+    "meaning": "피해자"
+  },
+  {
+    "word": "violence",
+    "meaning": "폭력"
+  },
+  {
+    "word": "virtual",
+    "meaning": "가상의"
+  },
+  {
+    "word": "vision",
+    "meaning": "시야"
+  },
+  {
+    "word": "visual",
+    "meaning": "시각의"
+  },
+  {
+    "word": "volunteer",
+    "meaning": "자원봉사자"
+  },
+  {
+    "word": "willingness",
+    "meaning": "의향"
+  },
+  {
+    "word": "witness",
+    "meaning": "목격자"
+  },
+  {
+    "word": "workforce",
+    "meaning": "노동력"
+  },
+  {
+    "word": "workplace",
+    "meaning": "직장"
+  },
+  {
+    "word": "workshop",
+    "meaning": "워크숍"
+  },
+  {
+    "word": "worthwhile",
+    "meaning": "가치 있는"
+  },
+  {
+    "word": "zone",
+    "meaning": "구역"
+  }
+]
