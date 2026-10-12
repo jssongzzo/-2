@@ -1,5 +1,5 @@
 {
-  "name": "Word Sprint 1000+",
+  "name": "Word Sprint",
   "short_name": "Word Sprint",
   "start_url": "./",
   "scope": "./",
@@ -21,5 +21,5 @@
       "purpose": "any maskable"
     }
   ],
-  "description": "AR 4.0–5.0 수준의 영어 단어 1039개 이상으로 공부하는 20문제 모바일 퀴즈"
+  "description": "Wordly Wise 3000 Book 2-4 단어 퀴즈 앱. 기본 단어 153개."
 }
