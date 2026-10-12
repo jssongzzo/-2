@@ -5,7 +5,7 @@ const firebaseConfig = {
   authDomain: "word-sprint-4672c.firebaseapp.com",
   projectId: "word-sprint-4672c",
   storageBucket: "word-sprint-4672c.firebasestorage.app",
-  messagingSenderId: "app-1-1080909456436-ios-c25e9cf8923bd897bed661",
+  messagingSenderId: "1080909456436",
   appId: "1:1080909456436:ios:c25e9cf8923bd897bed661"
 };
 export default firebaseConfig;
