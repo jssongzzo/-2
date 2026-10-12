@@ -1,5 +1,5 @@
-const CACHE_NAME = 'word-sprint-book2-4-v3';
-const APP_SHELL = ['./','./index.html','./manifest.webmanifest','./sw.js','./icons/icon-192.png','./icons/icon-512.png'];
+const CACHE_NAME = 'word-sprint-book2-4-firebase-v4';
+const APP_SHELL = ['./','./index.html','./manifest.webmanifest','./sw.js','./firebase-config.js','./firebase-sync.js','./icons/icon-192.png','./icons/icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL)));
   self.skipWaiting();

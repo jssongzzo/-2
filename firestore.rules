@@ -1,0 +1,33 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isAdmin() {
+      return request.auth != null
+        && request.auth.token.email_verified == true
+        && request.auth.token.email == 'REPLACE_WITH_ADMIN_EMAIL';
+    }
+
+    match /appData/words {
+      allow read: if true;
+      allow create, update: if isAdmin()
+        && request.resource.data.keys().hasOnly(['words', 'updatedAt'])
+        && request.resource.data.words is list
+        && request.resource.data.words.size() >= 20
+        && request.resource.data.words.size() <= 2000;
+      allow delete: if isAdmin();
+    }
+
+    match /appData/ads {
+      allow read: if true;
+      allow create, update: if isAdmin()
+        && request.resource.data.keys().hasOnly(['ads', 'updatedAt'])
+        && request.resource.data.ads is list
+        && request.resource.data.ads.size() <= 3;
+      allow delete: if isAdmin();
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

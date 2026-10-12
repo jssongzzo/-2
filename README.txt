@@ -1,30 +1,13 @@
-# Word Sprint — GitHub Pages PWA
+Word Sprint PWA — Firebase 클라우드 동기화 버전
 
-기본 단어 데이터는 업로드된 **Wordly Wise 3000 Book 2-4 CSV**를 기준으로 구성했습니다.
-- CSV 원본 항목: 231개
-- 중복 단어를 합친 기본 단어: **153개**
-- 같은 철자의 여러 뜻은 하나의 항목에 함께 표시합니다.
-- 예문은 퀴즈 선택지를 읽기 쉽도록 보통 첫 줄의 뜻 설명만 사용했습니다.
-- AR 등급 수준 문구는 앱에서 제거했습니다.
+필수 설정:
+1. Firebase Console에서 프로젝트 및 웹 앱 생성
+2. Authentication에서 이메일/비밀번호 로그인 활성화, 관리자 사용자 추가
+3. Firestore Database 및 Storage 준비
+4. firebase-config.js의 placeholder를 웹 앱 설정값으로 교체
+5. firestore.rules와 storage.rules의 REPLACE_WITH_ADMIN_EMAIL을 관리자 이메일로 교체
+6. Firebase Console의 Firestore > Rules와 Storage > Rules에 각각 규칙을 붙여넣고 게시
+7. 모든 파일을 GitHub Pages 저장소 루트에 업로드
+8. 관리자 로그인 후 이메일 인증, 첫 초기화, 광고 설정 저장
 
-## 배포
-1. 이 폴더의 모든 파일을 GitHub 저장소 최상위(root)에 업로드합니다.
-2. Repository → Settings → Pages → Deploy from a branch
-3. Branch `main`, Folder `/ (root)` 선택 후 Save
-4. 생성된 HTTPS 주소를 iPhone Safari에서 열고 공유 → 홈 화면에 추가
-
-## 관리자
-- 초기 비밀번호: `word500!`
-- CSV/JSON 파일로 단어 목록을 교체하거나 앱에서 직접 추가/수정/삭제할 수 있습니다.
-- CSV 헤더: `word,meaning`
-- 단어 변경 및 비밀번호는 현재 브라우저/기기에 저장됩니다.
-
-## 퀴즈
-- 매회 20문제, 기존 타이머 옵션 유지
-- 기본 단어 153개이며 관리자 메뉴에서 더 추가할 수 있습니다.
-
-## 보안 안내
-GitHub Pages는 정적 호스팅입니다. 관리자 비밀번호는 브라우저 내부의 간단한 잠금 기능이며 강력한 서버 인증은 아닙니다.
-
-## 광고
-상단 광고 배너는 기존 쿠팡 링크 설정을 유지하며, 관리자 메뉴에서 문구와 URL을 변경할 수 있습니다.
+자세한 내용은 README.md를 확인하세요.
