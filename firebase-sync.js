@@ -46,8 +46,10 @@ const cloud = {
     } else throw new Error('광고 이미지 형식을 확인하세요.');
     if (!blob.type.startsWith('image/')) throw new Error('이미지 파일만 업로드할 수 있습니다.');
     if (blob.size > 5 * 1024 * 1024) throw new Error('이미지 파일은 5MB 이하로 선택하세요.');
-    const objectRef = ref(storage, `ads/ad-${slot}.jpg`);
-    await uploadBytes(objectRef, blob, { contentType: 'image/jpeg', cacheControl: 'public,max-age=3600' });
+    // Use a new object name for every upload so Android Chrome/service-worker caches
+    // cannot keep showing an older image for the same ad slot.
+    const objectRef = ref(storage, `ads/ad-${slot}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}.jpg`);
+    await uploadBytes(objectRef, blob, { contentType: 'image/jpeg', cacheControl: 'public,max-age=300' });
     return await getDownloadURL(objectRef);
   },
   async seedIfMissing() {

@@ -16,7 +16,7 @@ h1{font-size:34px;line-height:1.08;margin:8px 0 10px;letter-spacing:-1px}.sub{co
 .row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}.setting{background:#f6f6fb;border-radius:16px;padding:14px}
 .setting label{display:block;font-size:12px;color:#77798b;margin-bottom:7px}.setting select{width:100%;border:0;background:transparent;font-weight:800;font-size:15px}
 .progress{height:8px;background:#e8e8f1;border-radius:20px;overflow:hidden;margin:12px 0 18px}.bar{height:100%;background:#6d5dfc;width:0;transition:.25s}
-.qmeta{display:flex;justify-content:space-between;color:#6e7080;font-size:13px;font-weight:700}.timer{font-size:18px;color:#6d5dfc}
+.qmeta{display:flex;justify-content:space-between;color:#6e7080;font-size:13px;font-weight:700}
 .word{font-size:42px;text-align:center;margin:30px 0 24px;font-weight:900;letter-spacing:-1px}
 .options{display:grid;gap:10px}.opt{padding:16px;border:2px solid #e9e9f2;border-radius:16px;background:#fff;text-align:left;font-size:16px;font-weight:700;cursor:pointer}
 .opt.correct{border-color:#38a169;background:#edf9f2}.opt.wrong{border-color:#e05252;background:#fff0f0}
@@ -46,6 +46,7 @@ h1{font-size:34px;line-height:1.08;margin:8px 0 10px;letter-spacing:-1px}.sub{co
 .word-row:last-child{border-bottom:0}.word-row button{border:0;border-radius:8px;padding:5px 8px;background:#f4e7e7;color:#8b2626}
 .status{font-size:13px;margin-top:8px;line-height:1.45}.status.error{color:#b42318}.status.ok{color:#167647}
 
+ .ad-text-only{display:flex;align-items:center;justify-content:center;min-height:70px;padding:14px;font-weight:700;text-align:center;background:#f3f4f6;color:#111827;border-radius:12px}
 </style>
   <link rel="manifest" href="manifest.webmanifest">
   <meta name="theme-color" content="#111827">
@@ -57,17 +58,13 @@ h1{font-size:34px;line-height:1.08;margin:8px 0 10px;letter-spacing:-1px}.sub{co
 <body>
 <div id="app"><div class="wrap">
 <div class="top"><div class="logo">WORD SPRINT</div><div style="display:flex;gap:7px;align-items:center"><div class="pill">단어 153개</div><button class="admin-link" onclick="openAdmin()">관리자</button></div></div>
-<div id="adDisclosure" class="affiliate-disclosure hidden">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</div>
+<div id="adDisclosure" class="affiliate-disclosure hidden">광고 링크를 통해 구매가 발생하면 수수료를 받을 수 있습니다.</div>
 <div id="adGallery" class="ad-gallery hidden" aria-label="추천 광고"></div>
 
 <section id="home" class="card">
 <h1>영어 단어<br>20문제 챌린지</h1>
-<p class="sub">153개의 영어 단어 중 매 게임 20개가 랜덤으로 출제됩니다. 제한 시간 안에 정확한 뜻을 골라보세요.</p>
-<div class="row">
-<div class="setting"><label>문제당 시간</label>
-<select id="time"><option value="10">10초</option><option value="15" selected>15초</option><option value="20">20초</option><option value="30">30초</option></select></div>
-<div class="setting"><label>문제 수</label><select disabled><option>20문제</option></select></div>
-</div>
+<p class="sub">등록된 영어 단어 중 20개가 랜덤으로 출제됩니다. 시간 제한 없이 정확한 뜻을 골라보세요.</p>
+<div class="row"><div class="setting"><label>문제 수</label><select disabled><option>20문제</option></select></div></div>
 <button class="btn" style="margin-top:16px" onclick="startGame()">게임 시작</button>
 <p class="small">Safari에서 홈 화면에 추가하면 앱처럼 사용할 수 있습니다.</p>
 </section>
@@ -87,13 +84,13 @@ h1{font-size:34px;line-height:1.08;margin:8px 0 10px;letter-spacing:-1px}.sub{co
     <div class="pill" style="display:inline-block" id="wordCountPill">등록 단어 개</div>
     <p class="admin-note" id="cloudStatus">Firebase 연결 상태 확인 중…</p>
     <button class="btn secondary" onclick="logoutAdmin()">관리자 로그아웃</button>
-    <h3>이미지 광고 링크 (최대 3개)</h3>
-    <p class="admin-note">각 광고의 이미지 파일을 직접 선택하세요. 휴대폰에서 캡처한 사진도 선택할 수 있습니다. 클릭 시 이동할 링크를 입력하세요. 광고는 메인 화면에는 표시되지 않고 문제풀이·결과 화면에만 표시됩니다. 사진은 저장 공간을 줄이도록 자동으로 최적화됩니다.</p>
-    <div class="admin-grid"><div><label>광고 1 문구</label><input id="adText1" placeholder="예: 추천 상품"></div><div style="grid-column:1/-1"><label>광고 1 이미지 (캡처한 사진 선택)</label><input id="adImageFile1" class="ad-file-picker" type="file" accept="image/*" onchange="previewAdImage(1)" aria-label="광고 1 사진 선택"><p class="admin-note">위 버튼을 눌러 사진 앱에서 캡처 이미지를 선택하세요.</p><div id="adPreview1" class="admin-note">선택된 이미지 없음</div></div><div style="grid-column:1/-1"><label>광고 1 클릭 링크</label><input id="adUrl1" type="url" placeholder="https://..."></div></div>
-    <div class="admin-grid"><div><label>광고 2 문구</label><input id="adText2" placeholder="예: 오늘의 추천"></div><div style="grid-column:1/-1"><label>광고 2 이미지 (캡처한 사진 선택)</label><input id="adImageFile2" class="ad-file-picker" type="file" accept="image/*" onchange="previewAdImage(2)" aria-label="광고 2 사진 선택"><p class="admin-note">위 버튼을 눌러 사진 앱에서 캡처 이미지를 선택하세요.</p><div id="adPreview2" class="admin-note">선택된 이미지 없음</div></div><div style="grid-column:1/-1"><label>광고 2 클릭 링크</label><input id="adUrl2" type="url" placeholder="https://..."></div></div>
-    <div class="admin-grid"><div><label>광고 3 문구</label><input id="adText3" placeholder="예: 특별 할인"></div><div style="grid-column:1/-1"><label>광고 3 이미지 (캡처한 사진 선택)</label><input id="adImageFile3" class="ad-file-picker" type="file" accept="image/*" onchange="previewAdImage(3)" aria-label="광고 3 사진 선택"><p class="admin-note">위 버튼을 눌러 사진 앱에서 캡처 이미지를 선택하세요.</p><div id="adPreview3" class="admin-note">선택된 이미지 없음</div></div><div style="grid-column:1/-1"><label>광고 3 클릭 링크</label><input id="adUrl3" type="url" placeholder="https://..."></div></div>
+    <h3>광고 설정 (3개)</h3>
+    <p class="admin-note">광고 문구와 클릭 링크를 설정하세요. 사진 첨부 기능은 없습니다. 저장된 광고 3개는 문제풀이·결과 화면에 표시됩니다.</p>
+    <div class="admin-grid"><div><label>광고 1 문구</label><input id="adText1" placeholder="예: 추천 상품"></div><div style="grid-column:1/-1"><label>광고 1 클릭 링크</label><input id="adUrl1" type="url" placeholder="https://..."></div></div>
+    <div class="admin-grid"><div><label>광고 2 문구</label><input id="adText2" placeholder="예: 오늘의 추천"></div><div style="grid-column:1/-1"><label>광고 2 클릭 링크</label><input id="adUrl2" type="url" placeholder="https://..."></div></div>
+    <div class="admin-grid"><div><label>광고 3 문구</label><input id="adText3" placeholder="예: 특별 할인"></div><div style="grid-column:1/-1"><label>광고 3 클릭 링크</label><input id="adUrl3" type="url" placeholder="https://..."></div></div>
     <button class="btn secondary" onclick="saveAdSettings()">광고 설정 저장</button>
-    <p class="admin-note">관리자 비밀번호 변경은 Firebase Authentication에서 진행하세요. 광고 이미지 파일은 클라우드 저장소에 업로드되어 다른 휴대폰에서도 표시됩니다.</p>
+    <p class="admin-note">광고 3개 모두 문구와 http:// 또는 https:// 링크를 입력하세요.</p>
     <h3 style="margin-top:22px">단어 파일 업로드</h3>
     <p class="admin-note">JSON 또는 CSV 파일을 선택하면 현재 단어 목록을 교체합니다. JSON 형식은 [{"word":"abandon","meaning":"버리다"}] 배열이며, CSV는 word,meaning 헤더를 사용하세요.</p>
     <input id="wordFile" type="file" accept=".json,.csv,application/json,text/csv">
@@ -118,7 +115,7 @@ h1{font-size:34px;line-height:1.08;margin:8px 0 10px;letter-spacing:-1px}.sub{co
 </section>
 
 <section id="game" class="card hidden">
-<div class="qmeta"><span id="count">1 / 20</span><span class="timer">⏱ <b id="timer">15</b></span></div>
+<div class="qmeta"><span id="count">1 / 20</span></div>
 <div class="progress"><div class="bar" id="bar"></div></div>
 <div class="word" id="word"></div>
 <div class="options" id="options"></div>
@@ -212,74 +209,24 @@ function readAdSettings(){
   try { const data=JSON.parse(localStorage.getItem(AD_SETTINGS_KEY)||'[]'); return Array.isArray(data)?data.slice(0,3):[]; } catch(e){ return []; }
 }
 async function loadAdminSettings(){
-  const ads=readAdSettings();
-  for(let i=1;i<=3;i++){
-    const ad=ads[i-1]||{};
-    document.getElementById('adText'+i).value=ad.text||'';
-    const fileInput=document.getElementById('adImageFile'+i); if(fileInput) fileInput.value='';
-    const preview=document.getElementById('adPreview'+i); if(preview){preview.innerHTML=''; if(ad.image){const img=document.createElement('img');img.src=ad.image;img.alt='광고 '+i+' 미리보기';img.style.cssText='max-width:100%;max-height:120px;border-radius:10px;margin-top:6px';preview.appendChild(img)}else preview.textContent='선택된 이미지 없음';}
-    document.getElementById('adUrl'+i).value=ad.url||'';
-  }
-  updateWordCount(); renderWordList();
-}
-async function previewAdImage(i){
-  const file=document.getElementById('adImageFile'+i).files[0];
-  const box=document.getElementById('adPreview'+i);
-  if(!file){box.textContent='선택된 이미지 없음';return;}
-  if(!file.type.startsWith('image/')){setStatus('이미지 파일을 선택하세요.','error');return;}
-  try{const data=await optimizeImage(file);box.innerHTML='';const img=document.createElement('img');img.src=data;img.alt='광고 '+i+' 미리보기';img.style.cssText='max-width:100%;max-height:120px;border-radius:10px;margin-top:6px';box.appendChild(img);box.dataset.image=data;box.dataset.newImage='1';}
-  catch(e){setStatus('이미지를 읽지 못했습니다. 다른 사진을 선택하세요.','error');}
-}
-function optimizeImage(file){
-  return new Promise((resolve,reject)=>{const reader=new FileReader();reader.onerror=reject;reader.onload=()=>{const img=new Image();img.onerror=reject;img.onload=()=>{const max=1000,scale=Math.min(1,max/Math.max(img.width,img.height));const canvas=document.createElement('canvas');canvas.width=Math.round(img.width*scale);canvas.height=Math.round(img.height*scale);canvas.getContext('2d').drawImage(img,0,0,canvas.width,canvas.height);resolve(canvas.toDataURL('image/jpeg',0.78));};img.src=reader.result;};reader.readAsDataURL(file);});
+  let ads=readAdSettings();
+  if(window.CloudSync?.ready && window.CloudSync.user){try{const cloud=await window.CloudSync.loadAds();if(Array.isArray(cloud)){ads=cloud.slice(0,3);localStorage.setItem(AD_SETTINGS_KEY,JSON.stringify(ads));}}catch(e){}}
+  for(let i=1;i<=3;i++){const ad=ads[i-1]||{};const t=document.getElementById('adText'+i),u=document.getElementById('adUrl'+i);if(t)t.value=ad.text||'';if(u)u.value=ad.url||'';}
+  updateWordCount();renderWordList();applyAdSettings();
 }
 async function saveAdSettings(){
   if(!window.CloudSync?.ready){setStatus('먼저 firebase-config.js 설정을 완료해야 클라우드에 저장할 수 있습니다.','error');return;}
-  if(!window.CloudSync.user){setStatus('광고를 클라우드에 저장하려면 Firebase 관리자 로그인이 필요합니다.','error');return;}
-  const oldAds=readAdSettings(),ads=[];
-  for(let i=1;i<=3;i++){
-    const text=document.getElementById('adText'+i).value.trim();
-    const url=document.getElementById('adUrl'+i).value.trim();
-    const box=document.getElementById('adPreview'+i);
-    let image=(box&&box.dataset.newImage==='1')?box.dataset.image:(oldAds[i-1]&&oldAds[i-1].image)||'';
-    const hasAny=text||image||url||document.getElementById('adImageFile'+i).files.length;
-    if(!hasAny) continue;
-    if(!image||!url){setStatus('광고 '+i+'번은 이미지 사진과 클릭 링크를 모두 입력하세요.','error');return;}
-    try { const link=new URL(url); if(!['http:','https:'].includes(link.protocol)) throw 0; }
-    catch(e){setStatus('광고 클릭 링크는 http:// 또는 https:// 주소로 입력하세요.','error');return;}
-    ads.push({text:text||('추천 광고 '+i),image,url,slot:i});
-  }
-  try{
-    for(let i=0;i<ads.length;i++) ads[i].image=await window.CloudSync.uploadAdImage(ads[i].image,ads[i].slot||i+1);
-    await window.CloudSync.saveAds(ads);
-    localStorage.setItem(AD_SETTINGS_KEY,JSON.stringify(ads));
-  }catch(e){setStatus('클라우드 광고 저장 실패: '+(e.message||e),'error');return;}
-  for(let i=1;i<=3;i++){const box=document.getElementById('adPreview'+i);if(box)delete box.dataset.newImage;}
-  applyAdSettings();await loadAdminSettings();setStatus('이미지 광고 '+ads.length+'개를 클라우드에 저장했습니다.','ok');
+  if(!window.CloudSync.user){setStatus('광고를 저장하려면 Firebase 관리자 로그인이 필요합니다.','error');return;}
+  const ads=[];
+  for(let i=1;i<=3;i++){const text=document.getElementById('adText'+i).value.trim(),url=document.getElementById('adUrl'+i).value.trim();if(!text||!url){setStatus('광고 '+i+'번의 문구와 클릭 링크를 모두 입력하세요.','error');return;}try{const link=new URL(url);if(!['http:','https:'].includes(link.protocol))throw 0;}catch(e){setStatus('광고 '+i+'번 링크는 http:// 또는 https:// 주소로 입력하세요.','error');return;}ads.push({text,url,slot:i});}
+  try{await window.CloudSync.saveAds(ads);localStorage.setItem(AD_SETTINGS_KEY,JSON.stringify(ads));}catch(e){setStatus('광고 설정 저장 실패: '+(e.message||e),'error');return;}
+  applyAdSettings();setStatus('광고 3개를 저장했습니다.','ok');
 }
 function applyAdSettings(){
-  const gallery=document.getElementById('adGallery');
-  const ads=readAdSettings();
-  gallery.innerHTML='';
-  ads.forEach((ad,i)=>{
-    const a=document.createElement('a');a.className='ad-tile';a.href=ad.url;a.target='_blank';a.rel='noopener noreferrer sponsored';
-    const img=document.createElement('img');img.src=ad.image;img.alt=ad.text||('광고 '+(i+1));img.loading='lazy';
-    img.onerror=()=>{const ph=document.createElement('div');ph.className='ad-placeholder';ph.textContent='🛍️';img.replaceWith(ph);};
-    const cap=document.createElement('span');cap.className='ad-caption';
-    const lab=document.createElement('span');lab.className='ad-label';lab.textContent='AD · 광고';
-    cap.append(lab,document.createTextNode(ad.text||('추천 광고 '+(i+1))));a.append(img,cap);gallery.appendChild(a);
-  });
-  gallery.classList.toggle('hidden',ads.length===0 || (!document.getElementById('game').classList.contains('hidden')===false && !document.getElementById('result').classList.contains('hidden')===false));
-  updateAdVisibility();
+ const gallery=document.getElementById('adGallery');if(!gallery)return;const ads=readAdSettings();gallery.innerHTML='';
+ ads.forEach((ad,i)=>{const a=document.createElement('a');a.className='ad-tile';a.href=ad.url;a.target='_blank';a.rel='noopener noreferrer sponsored';const body=document.createElement('div');body.className='ad-text-only';body.textContent=ad.text||('추천 광고 '+(i+1));const cap=document.createElement('span');cap.className='ad-caption';const lab=document.createElement('span');lab.className='ad-label';lab.textContent='AD · 광고';cap.append(lab,document.createTextNode(ad.text||('추천 광고 '+(i+1))));a.append(body,cap);gallery.appendChild(a);});updateAdVisibility();
 }
-function updateAdVisibility(){
-  const visible=!document.getElementById('home').classList.contains('hidden')===false && false;
-  const gameVisible=!document.getElementById('game').classList.contains('hidden');
-  const resultVisible=!document.getElementById('result').classList.contains('hidden');
-  const show=!!(gameVisible||resultVisible)&&readAdSettings().length>0;
-  document.getElementById('adGallery').classList.toggle('hidden',!show);
-  document.getElementById('adDisclosure').classList.toggle('hidden',!show);
-}
+function updateAdVisibility(){const gameVisible=!document.getElementById('game')?.classList.contains('hidden'),resultVisible=!document.getElementById('result')?.classList.contains('hidden');const show=(gameVisible||resultVisible)&&readAdSettings().length===3;const gallery=document.getElementById('adGallery'),disclosure=document.getElementById('adDisclosure');if(gallery)gallery.classList.toggle('hidden',!show);if(disclosure)disclosure.classList.toggle('hidden',!show);}
 function setStatus(msg,type=''){
   const el=document.getElementById('adminStatus');el.textContent=msg;el.className='status '+type;
 }
@@ -358,23 +305,22 @@ function resetWords(){
   localStorage.removeItem(WORDS_KEY); if(window.CloudSync?.ready) window.CloudSync.saveWords(DEFAULT_VOCAB).catch(e=>setStatus('클라우드 저장 실패: '+e.message,'error')); renderWordList();setStatus('기본 단어 목록으로 되돌렸습니다.','ok');
 }
 
-let questions=[],idx=0,score=0,timerId=null,locked=false,remaining=15;
+let questions=[],idx=0,score=0,locked=false;
 const shuffle=a=>[...a].sort(()=>Math.random()-.5);
 function startGame(){
  questions=shuffle(activeWords()).slice(0,20);idx=0;score=0;
  home.classList.add('hidden');result.classList.add('hidden');game.classList.remove('hidden');updateAdVisibility();showQuestion();
 }
 function showQuestion(){
- clearInterval(timerId);locked=false;
- const q=questions[idx],limit=Number(time.value);remaining=limit;
- timer.textContent=remaining;count.textContent=(idx+1)+' / 20';bar.style.width=(idx/20*100)+'%';word.textContent=q.word;
+ locked=false;
+ const q=questions[idx];
+ count.textContent=(idx+1)+' / 20';bar.style.width=(idx/20*100)+'%';word.textContent=q.word;
  const wrong=shuffle(activeWords().filter(x=>x.word!==q.word && x.meaning!==q.meaning)).slice(0,3).map(x=>x.meaning);
  const choices=[...new Set([q.meaning,...wrong])]; while(choices.length<4){const extra=shuffle(activeWords().map(x=>x.meaning).filter(m=>!choices.includes(m)))[0]; if(!extra)break; choices.push(extra)}
  options.innerHTML=shuffle(choices.slice(0,4)).map((c,i)=>`<button class="opt" data-i="${i}" onclick="answer(this)">${c}</button>`).join('');
- timerId=setInterval(()=>{remaining--;timer.textContent=remaining;if(remaining<=0){clearInterval(timerId);answer(null)}},1000);
 }
 function answer(btn){
- if(locked)return;locked=true;clearInterval(timerId);
+ if(locked)return;locked=true;
  const q=questions[idx],choice=btn?btn.textContent:null;
  if(choice===q.meaning)score++;
  document.querySelectorAll('.opt').forEach(b=>{b.disabled=true;if(b.textContent===q.meaning)b.classList.add('correct')});

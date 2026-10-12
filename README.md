@@ -72,3 +72,9 @@ GitHub 저장소에서 Settings → Pages를 열어 현재 쓰는 배포 브랜�
 - 점수와 진행 상황은 공유하지 않습니다.
 - Firebase 설정이 완료되지 않으면 클라우드 동기화는 작동하지 않습니다. 화면의 클라우드 상태 안내를 확인하세요.
 - `firebase.json`과 Rules 파일은 Firebase CLI로 배포할 때 사용할 수 있으며, 위 설명처럼 Console에서 직접 규칙을 게시해도 됩니다.
+
+
+## 이미지 표시 개선
+- 광고 사진은 업로드할 때마다 고유한 Storage 경로에 저장해 Android Chrome의 오래된 이미지 캐시가 재사용될 가능성을 줄입니다.
+- 관리자 화면에서 갤러리 선택과 카메라 촬영을 별도로 제공합니다.
+- 변경된 `index.html`과 `firebase-sync.js`를 GitHub Pages 저장소 루트에 함께 배포하세요.
