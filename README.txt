@@ -13,3 +13,11 @@ Word Sprint PWA — Firebase 클라우드 동기화 버전
 자세한 내용은 README.md를 확인하세요.
 
 업데이트: 광고 사진은 갤러리 선택/카메라 촬영을 지원하며, 업로드마다 고유한 파일 경로를 사용해 기기 간 이미지 캐시 문제를 줄입니다. index.html과 firebase-sync.js를 함께 배포하세요.
+
+
+[Word Sprint 1,000-word replacement build]
+- Replaces the previous default list with a 1,000-word list targeted at Wordly Wise Book 2-4 level.
+- On the first verified administrator login after deploying this build, the old cloud word list is intentionally replaced once with the new 1,000-word list.
+- After migration, administrator-added words continue syncing through the same Firebase project.
+- Existing ad settings are retained; the fixed Coupang Partners disclosure text is unchanged. Ad photo attachment and per-question timer remain removed.
+- Keep your real firebase-config.js values; do not replace them with placeholder settings.

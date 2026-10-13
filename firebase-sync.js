@@ -9,6 +9,7 @@ let app, auth, db, storage;
 const wordsRef = () => doc(db, 'appData', 'words');
 const adsRef = () => doc(db, 'appData', 'ads');
 const wordsKey = 'wordSprintBook2-4.words.v3';
+const DEFAULT_SET_VERSION = 'word-sprint-1000-replacement-v1';
 const adsKey = 'wordSprintBook2-4.adImages.v1';
 const cloud = {
   ready: configured,
@@ -28,7 +29,7 @@ const cloud = {
   async saveWords(words) {
     if (!configured) throw new Error('Firebase가 설정되지 않았습니다.');
     if (!cloud.user) throw new Error('클라우드 저장은 관리자 로그인 후 가능합니다.');
-    await setDoc(wordsRef(), { words, updatedAt: serverTimestamp() });
+    await setDoc(wordsRef(), { words, defaultSetVersion: DEFAULT_SET_VERSION, updatedAt: serverTimestamp() });
   },
   async saveAds(ads) {
     if (!configured) throw new Error('Firebase가 설정되지 않았습니다.');
@@ -54,23 +55,25 @@ const cloud = {
   },
   async seedIfMissing() {
     if (!configured || !cloud.user) return;
+    const defaults = (window.getDefaultWords && window.getDefaultWords()) || [];
+    if (defaults.length !== 1000) throw new Error('기본 단어 목록이 1,000개인지 확인할 수 없습니다.');
     const w = await getDoc(wordsRef());
-    if (!w.exists()) {
-      let localWords = [];
-      try { localWords = JSON.parse(localStorage.getItem(wordsKey) || '[]'); } catch (_) {}
-      if (!Array.isArray(localWords) || !localWords.length) localWords = (window.getDefaultWords && window.getDefaultWords()) || [];
-      if (localWords.length) await this.saveWords(localWords);
+    const currentVersion = w.exists() ? w.data().defaultSetVersion : null;
+    // One-time intentional replacement: replace the previous 153-word cloud list with the new 1,000-word base list.
+    // Future admin edits are preserved because the version marker is retained on every save.
+    if (currentVersion !== DEFAULT_SET_VERSION) {
+      localStorage.setItem(wordsKey, JSON.stringify(defaults));
+      await this.saveWords(defaults);
+      if (typeof window.updateWordCount === 'function') window.updateWordCount();
+      if (typeof window.renderWordList === 'function') window.renderWordList();
     }
     const a = await getDoc(adsRef());
     if (!a.exists()) {
       let localAds = [];
       try { localAds = JSON.parse(localStorage.getItem(adsKey) || '[]'); } catch (_) {}
-      const uploaded = [];
-      for (let i = 0; i < Math.min(3, localAds.length); i++) {
-        const ad = localAds[i];
-        if (ad && ad.image && ad.url) uploaded.push({ ...ad, slot: i + 1, image: await this.uploadAdImage(ad.image, i + 1) });
-      }
-      await this.saveAds(uploaded);
+      // Photo upload UI has been removed; preserve URL-based ad settings only.
+      const ads = Array.isArray(localAds) ? localAds.filter(ad => ad && ad.url).slice(0, 3) : [];
+      await this.saveAds(ads);
     }
   }
 };
